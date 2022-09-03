@@ -1,2 +1,3 @@
 # Lenoz_blog
-pagina web de blogs personales 
+
+Página web de blogs personales, para documentar el aprendizaje en pequeños blogs para la comunidad de tecnología y crecimiento personal.📚🥇
