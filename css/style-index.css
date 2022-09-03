@@ -1,0 +1,312 @@
+/* header */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.nav_container {
+  background-color: var(--header-color);
+}
+
+/*  */
+.nav__toggle {
+  position: absolute;
+  cursor: pointer;
+  right: 2rem;
+  top: 12px;
+}
+
+.nav__toggle .close {
+  display: none;
+}
+
+.nav__checkbox {
+  display: none;
+}
+
+.nav__menu {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.red_container {
+  background: var(--background-color);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 4.5rem;
+}
+
+.red_container div {
+  margin: 0 auto;
+}
+
+.nav__menu .contenido {
+  display: none;
+}
+
+.contenido a {
+  font-size: var(--iphone-titles-size);
+  font-weight: var(--titles-weight);
+  font-family: var(--titles-font-family);
+  color: var(--fonts-color);
+  margin-left: 12px;
+  border-bottom: 1px solid var(--boton-color);
+  border-end-start-radius: 1rem;
+}
+
+.contenido img {
+  width: 4.5rem;
+}
+
+.red_container div :nth-child(3) a {
+  padding-top: 1.5rem;
+}
+
+#nav__checkbox:checked ~ div.nav__menu .contenido {
+  display: flex;
+  align-items: center;
+  margin: 2.1rem 0;
+}
+
+#nav__checkbox:checked ~ div.nav__menu {
+  height: 100vh;
+}
+
+#nav__checkbox:checked ~ label.nav__toggle .close {
+  display: block;
+}
+
+#nav__checkbox:checked ~ label.nav__toggle .menu {
+  display: none;
+}
+
+.container_logo {
+  display: grid;
+  grid-template-columns: minmax(335px, 1fr);
+  grid-template-rows: minmax(30px, 76px);
+}
+
+.nav_logo_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 1.4rem;
+}
+.nav_logo_container .logo_principal,
+.img_logo {
+  height: 100%;
+}
+.nav_logo_container .button_me a {
+  color: var(--fonts-color);
+  font-size: var(--iphone-titles-size);
+  text-decoration: underline;
+}
+
+/* main */
+main {
+  margin: 0 2rem;
+}
+.blog_principal {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(335px, 1fr));
+  grid-template-rows: minmax(220px, 271px) minmax(220px, 317px);
+  background-color: var(--backgraund-color-card);
+}
+.blog_principal .blog_image--principal,
+.ultimo-posts {
+  align-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  padding: 0.5rem 1.1rem;
+}
+.container_blog--principal {
+  display: grid;
+  align-content: space-evenly;
+  padding: 0 1rem;
+}
+.title_blog--principal {
+  font-weight: var(--titles-bold-weight);
+  font-size: var(--iphone-titles-bold-size);
+  font-family: var(--titles-font-family);
+  text-align: center;
+  margin: 1rem 0;
+}
+.text_blog--principal {
+  font-size: var(--iphone-texts-size);
+  line-height: var(--iphone-texts-height);
+  font-weight: var(--texts-weight);
+  font-family: var(--texts-font-family);
+  padding-top: 1rem;
+  line-break: auto;
+  border-top: 1px solid #3d3a3a;
+  overflow: hidden;
+}
+.button_blog--principal {
+  align-self: center;
+  background-color: var(--boton-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 9.5rem;
+  height: 3.7rem;
+  margin: 1.5rem 0;
+  border-radius: 23px;
+}
+.button_blog--principal a {
+  font-size: 1.5rem;
+  color: var(--fonts-color);
+}
+.blogs_container h1 {
+  text-align: center;
+  margin: 1.5rem 0 1rem;
+  font-size: var(--iphone-titles-size);
+  font-weight: var(--titles-bold-weight);
+  font-family: var(--titles-font-family);
+}
+
+/* ---------cards--------------- */
+.blogs_container--grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(335px, 394.97px));
+  grid-template-rows: repeat(auto-fit, minmax(212px, 1fr));
+  gap: 3rem;
+  justify-content: center;
+  border-top: 1px solid #3d3a3a;
+  padding-top: 2rem;
+}
+.container_card {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 232.02px;
+  box-shadow: 0px 9px 20px 0px rgb(0 0 0 / 50%);
+  border-radius: 13px;
+}
+.card .card_img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.card .card_img img {
+  position: absolute;
+  border-radius: 13px;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  align-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card:hover .card_img img {
+  opacity: 0;
+}
+.card .content_text {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(auto, auto) minmax(auto, 278px) minmax(0, auto);
+  border-radius: 13px;
+  bottom: 0;
+  width: 80%;
+  height: 60px;
+  background: var(--boton-color);
+  transition: 0.5s;
+  padding: 15px;
+}
+.card:hover .content_text {
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  background-color: var(--fonts-color);
+  color: black;
+}
+.card .content_text h3 {
+  font-size: var(--iphone-titles-size);
+  font-weight: var(--titles-bold-weight);
+  font-family: var(--titles-font-family);
+  text-align: center;
+}
+.card .content_text p {
+  padding: 0.5rem;
+  opacity: 0;
+  line-height: var(--iphone-texts-height);
+  font-size: var(--iphone-texts-size);
+  font-weight: var(--texts-weight);
+  font-family: var(--texts-font-family);
+  transition: 0.5s;
+  line-break: auto;
+  overflow: hidden;
+}
+.card:hover .content_text p {
+  opacity: 1;
+  transition: 0.5s;
+}
+.card .content_text .container_button {
+  display: flex;
+  justify-content: end;
+}
+.card .content_text .button_leer {
+  opacity: 0;
+  align-self: center;
+  background-color: var(--boton-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 9.5rem;
+  height: 3.7rem;
+  border-radius: 23px;
+  transition: 0.1s;
+}
+.content_text .button_leer a {
+  font-size: 1.5rem;
+  color: var(--fonts-color);
+}
+.card:hover .content_text .button_leer {
+  opacity: 1;
+  transition: 0.3s;
+}
+/* footer */
+footer {
+  background: var(--footer-color);
+  min-width: 375px;
+}
+.footer_container {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: flex-end;
+  align-items: center;
+  padding: 1rem 0;
+  margin: 5rem 2rem 0;
+}
+.footer_container div {
+  display: flex;
+  align-items: center;
+}
+.footer_img {
+  width: 35px;
+  height: 35px;
+}
+.footer_img img {
+  width: 100%;
+  height: 100%;
+}
+.footer_text {
+  padding-left: 7px;
+  font-size: 12px;
+}
