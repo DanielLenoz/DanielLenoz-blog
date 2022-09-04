@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700;800&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700;800&family=Roboto&display=swap");
 :root {
   --fonts-color: #e3d6d6;
   --boton-color: #e04d01;
@@ -10,8 +10,8 @@
   --texts-weight: 400;
   --titles-weight: 700;
   --titles-bold-weight: 800;
-  --titles-font-family:'Nunito Sans', sans-serif;;
-  --texts-font-family: 'Roboto', sans-serif;;
+  --titles-font-family: "Nunito Sans", sans-serif;
+  --texts-font-family: "Roboto", sans-serif;
   --iphone-titles-size: 18px;
   --iphone-titles-bold-size: 20px;
   --iphone-texts-size: 16px;

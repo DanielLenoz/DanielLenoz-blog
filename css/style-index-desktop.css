@@ -36,7 +36,7 @@ header {
   height: 6rem;
 }
 
-.contenido{
+.contenido {
   transition: all ease-in-out 0.5s;
 }
 .contenido:hover {

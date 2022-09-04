@@ -24,7 +24,7 @@ header {
   justify-content: flex-end;
   background: var(--header-color);
 }
-.red_container>div {
+.red_container > div {
   display: flex;
   align-items: flex-end;
   margin: 0 3rem;

@@ -40,7 +40,7 @@ header {
   transition: all ease-in-out 0.2s;
 }
 .contenido a {
-margin: 0 1rem 0 0.5rem;
+  margin: 0 1rem 0 0.5rem;
 }
 .red_container div :nth-child(3) a {
   padding-top: 0;
