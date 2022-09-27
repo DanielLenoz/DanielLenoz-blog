@@ -46,7 +46,7 @@ header {
 .nav__menu .contenido {
   display: none;
 }
-.contenido a {
+.contenido .share_link {
   font-size: var(--iphone-titles-size);
   font-weight: var(--titles-weight);
   font-family: var(--titles-font-family);

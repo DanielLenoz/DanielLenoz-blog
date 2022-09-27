@@ -16,6 +16,7 @@ header {
 
 .nav__menu .red_container div .contenido {
   display: block;
+  margin: 0 1rem;
 }
 
 .red_container,
@@ -45,8 +46,9 @@ header {
   transition: all ease-in-out 0.2s;
 }
 
-.contenido a {
+.contenido .share_link {
   margin: 0 1rem 0 0.5rem;
+  display: none;
 }
 
 .red_container div :nth-child(3) a {
@@ -99,10 +101,6 @@ main {
   color: var(--boton-color);
 }
 
-.blogs_container--grid {
-  column-gap: 8.4rem;
-  row-gap: 3rem;
-}
 .card {
   height: 346.61px;
 }

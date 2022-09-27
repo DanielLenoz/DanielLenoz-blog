@@ -14,6 +14,7 @@ header {
 }
 .nav__menu .red_container div .contenido {
   display: block;
+  margin: 0 1rem;
 }
 .red_container,
 .red_container div {
@@ -39,8 +40,9 @@ header {
   transform-origin: bottom;
   transition: all ease-in-out 0.2s;
 }
-.contenido a {
+.contenido .share_link {
   margin: 0 1rem 0 0.5rem;
+  display: none;
 }
 .red_container div :nth-child(3) a {
   padding-top: 0;
