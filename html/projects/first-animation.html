@@ -8,50 +8,72 @@
     <link rel="stylesheet" href="../../css/basic-style.css" />
     <link rel="stylesheet" href="../../css/full_blogs.css" />
     <link rel="stylesheet" href="../../css/full_blog-desktop.css" media="screen and (min-width:710px)" />
-    <link rel="shortcut icon" href="../../assets/logo.svg" />
+    <link rel="shortcut icon" href="../../assets/icons-redes/logo.svg" />
     <title>Blog frist animation</title>
 </head>
 
 <body>
     <header>
-        <nav class="nav_container">
-            <input type="checkbox" name="" id="nav__checkbox" class="nav__checkbox" />
-            <label for="nav__checkbox" class="nav__toggle">
-                <img src="../../assets/menu.svg" alt="menu de contenido" class="menu" />
-                <img src="../../assets/close.svg" alt="close menu" class="close" />
-            </label>
-            <div class="nav__menu">
-                <div class="red_container">
-                    <div>
-                        <div class="contenido">
-                            <a href="https://daniellenoz.github.io/DanielLenoz-portafolio/" class="container_share"><img
-                                    src="../../assets/logo.svg" alt="portafolio"></a>
-                            <a href="https://daniellenoz.github.io/DanielLenoz-portafolio/"
-                                class="share_link">Portafolio</a>
-                        </div>
-                        <div class="contenido">
-                            <a href="https://www.linkedin.com/in/daniel-steven-rodriguez-verano-417472241/"
-                                class="container_share"><img src="../../assets/linekdin.svg" alt="linkedin"></a>
-                            <a href="https://www.linkedin.com/in/daniel-steven-rodriguez-verano-417472241/"
-                                class="share_link">Linekdin
-                                DanielLenoz</a>
-                        </div>
-                        <div class="contenido">
-                            <a href="https://github.com/DanielLenoz" class="container_share"> <img
-                                    src="../../assets/github.svg" alt="github"></a>
-                            <a href="https://github.com/DanielLenoz" class="share_link">Github
-                                DanielLenoz</a>
-                        </div>
+        <nav class="navar--mobile">
+            <div class="menu--icon">
+                <img src="../../assets/menu.svg" alt="menu de contenido" class="menu ">
+                <img src="../../assets/close.svg" alt="close menu" class="close inactive">
+            </div>
+            <div class="container_menu-mobile inactive ">
+                <div class="red_container ">
+                    <div class="contenido">
+                        <a href="https://daniellenoz.github.io/DanielLenoz-blog/" class="share_img"><img
+                                src="../../assets/icons-redes/blog.svg" alt="blogs"></a>
+                        <a href="https://daniellenoz.github.io/DanielLenoz-blog/" class="share_link">Blog
+                            DanielLenoz</a>
+                    </div>
+                    <div class="contenido">
+                        <a href="https://www.linkedin.com/in/daniel-steven-rodriguez-verano-417472241/"
+                            class="share_img"><img src="../../assets/icons-redes/linekdin.svg" alt="linkedin"></a>
+                        <a href="https://www.linkedin.com/in/daniel-steven-rodriguez-verano-417472241/"
+                            class="share_link">Linekdin
+                            DanielLenoz</a>
+                    </div>
+                    <div class="contenido">
+                        <a href="https://github.com/DanielLenoz" class="share_img"><img
+                                src="../../assets/icons-redes/github.svg" alt="github"></a>
+                        <a href="https://github.com/DanielLenoz" class="share_link">Github
+                            DanielLenoz</a>
                     </div>
                 </div>
-            </div>
+        </nav>
+        <nav class="navar--desktop">
+            <div class="container_menu-desktop  ">
+                <div class="red_container ">
+                    <div class="contenido">
+                        <a href="https://daniellenoz.github.io/DanielLenoz-blog/" class="share_img"><img
+                                src="../../assets/icons-redes/blog.svg" alt="blogs"></a>
+                        <p class="share_link link1">Blog
+                            DanielLenoz</p>
+                        <div></div>
+                    </div>
+                    <div class="contenido">
+                        <a href="https://www.linkedin.com/in/daniel-steven-rodriguez-verano-417472241/"
+                            class="share_img"><img src="../../assets/icons-redes/linekdin.svg" alt="linkedin"></a>
+                        <p class="share_link link2">Linekdin
+                            DanielLenoz</p>
+                        <div></div>
+                    </div>
+                    <div class="contenido">
+                        <a href="https://github.com/DanielLenoz" class="share_img"><img
+                                src="../../assets/icons-redes/github.svg" alt="github"></a>
+                        <p class="share_link link3">Github
+                            DanielLenoz</p>
+                        <div></div>
+                    </div>
+                </div>
         </nav>
     </header>
     <main>
         <div class="container_logo">
             <section class="nav_logo_container">
                 <a href="https://daniellenoz.github.io/DanielLenoz-blog/" class="logo_principal"><img
-                        src="../../assets/logo-name2.svg" alt="logo lenoz" class="img_logo" /></a>
+                        src="../../assets/icons-redes/logo-name2.svg" alt="logo lenoz" class="img_logo" /></a>
                 <div class="button_me">
                     <a href="../../html/perfil.html">Sobre mí</a>
                 </div>
@@ -99,19 +121,20 @@
         <section class="footer_container">
             <div>
                 <a href="https://platzi.com/home" class="footer_img" target="_blank">
-                    <img src="../../assets/platzi.svg" alt="platzi" />
+                    <img src="../../assets/icons-redes/platzi.svg" alt="platzi" />
                 </a>
                 <p class="footer_text">Estudiante de platzi</p>
             </div>
             <div>
                 <a href="https://www.linkedin.com/in/daniel-steven-rodriguez-verano-417472241/" class="footer_img"
                     target="_blank">
-                    <img src="../../assets/linkedin-2.svg" alt="linkedin de DanielLenoz" />
+                    <img src="../../assets/icons-redes/linkedin-2.svg" alt="linkedin de DanielLenoz" />
                 </a>
                 <p class="footer_text">Contacto frecuente</p>
             </div>
         </section>
     </footer>
+    <script src="../../js/main.js"></script>
 </body>
 
 </html>

@@ -4,49 +4,52 @@ header {
   top: 0;
   z-index: 1;
 }
-.nav_container {
-  background-color: var(--header-color);
+
+.inactive {
+  transform: scale(0);
 }
 
-/*  */
-.nav__toggle {
+.menu,
+.close {
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+nav {
+  background: var(--header-color);
+  width: 100%;
+  height: 55px;
+}
+
+.navar--desktop {
+  display: none;
+}
+
+.navar--mobile .container_menu-mobile {
+  height: 100vh;
+  width: 100%;
+  background: var(--background-color);
+}
+
+.menu--icon {
+  background: var(--header-color);
+  width: 100%;
+  height: 55px;
+}
+
+.menu--icon > img {
   position: absolute;
-  cursor: pointer;
-  right: 2rem;
-  top: 12px;
-}
-
-.nav__toggle .close {
-  display: none;
-}
-
-.nav__checkbox {
-  display: none;
-}
-
-.nav__menu {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  align-items: center;
+  right: 0;
+  margin: 1.5rem;
 }
 
 .red_container {
-  background: var(--background-color);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 4.5rem;
+  display: grid;
+  place-content: center;
+  height: 84vh;
 }
 
-.red_container div {
-  margin: 0 auto;
-}
-
-.nav__menu .contenido {
-  display: none;
+.red_container .contenido {
+  margin: 2rem 0;
 }
 
 .contenido .share_link {
@@ -55,34 +58,26 @@ header {
   font-family: var(--titles-font-family);
   color: var(--fonts-color);
   margin-left: 12px;
-  border-bottom: 1px solid var(--boton-color);
-  border-end-start-radius: 1rem;
+  border-bottom: 2px solid var(--boton-color);
+  animation: up infinite 2s;
+}
+
+@keyframes up {
+  0% {
+    border-bottom-left-radius: 0.5rem;
+  }
+
+  5% {
+    border-bottom-left-radius: 1rem;
+  }
+
+  10% {
+    border-bottom-left-radius: 2rem;
+  }
 }
 
 .contenido img {
   width: 4.5rem;
-}
-
-.red_container div :nth-child(3) a {
-  padding-top: 1.5rem;
-}
-
-#nav__checkbox:checked ~ div.nav__menu .contenido {
-  display: flex;
-  align-items: center;
-  margin: 2.1rem 0;
-}
-
-#nav__checkbox:checked ~ div.nav__menu {
-  height: 100vh;
-}
-
-#nav__checkbox:checked ~ label.nav__toggle .close {
-  display: block;
-}
-
-#nav__checkbox:checked ~ label.nav__toggle .menu {
-  display: none;
 }
 
 .container_logo {

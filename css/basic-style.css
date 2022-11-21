@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700;800&family=Roboto&display=swap");
 :root {
   --fonts-color: #e3d6d6;
+  --fonts-color-black: #1a1c2b;
   --boton-color: #e04d01;
   --header-color: #2a2550;
   --footer-color: #251d3a;
