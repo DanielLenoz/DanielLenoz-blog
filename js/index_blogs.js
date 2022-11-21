@@ -1,4 +1,4 @@
-const containerBlogs = document.querySelector(".blogs_container--grid");
+const contentBlog = document.querySelector("#container_blogs");
 
 const productListBlogs = [];
 
@@ -110,7 +110,7 @@ function reproductBlogs(arrBlogs) {
 
     containerCard.appendChild(card);
 
-    containerBlogs.appendChild(containerCard);
+   contentBlog.appendChild(containerCard);
   }
 }
 
