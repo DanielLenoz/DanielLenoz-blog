@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Oswald:wght@400;700&family=Roboto&display=swap");
+:root {
+  --fonts-color: #e3d6d6;
+  --fonts-radial: linear-gradient(180deg, #ffe600 0%, #f54601 100%);
+  --line-color: #bd4103;
+  --background-header-color: #0f172a;
+  --background-footer-color: #0f172a;
+  --background-main-color: #0f172a;
+  /* variables text */
+  --texts-weight: 400;
+  --titles-weight: 700;
+  --titles-bold-weight: 800;
+  --unic-font-family: "Carter One", cursive;
+  --titles-font-family: "Oswald", sans-serif;
+  --texts-font-family: "Roboto", sans-serif;
+  --iphone-titles-size: 18px;
+  --iphone-titles-bold-size: 20px;
+  --iphone-texts-size: 16px;
+  --iphone-texts-height: 24px;
+  --desktop-titles-size: 24px;
+  --desktop-titles-bold-size: 28px;
+  --desktop-texts-size: 20px;
+  --desktop-texts-height: 31px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background: var(--background-color);
+  color: var(--fonts-color);
+}
+a {
+  text-decoration: none;
+  display: inline;
+  color: black;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #3d3d3d;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #f5af19, #f12711);
+  border-radius: 3rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #bd4103;
+}

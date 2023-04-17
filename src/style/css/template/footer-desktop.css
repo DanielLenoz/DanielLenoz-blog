@@ -1,0 +1,35 @@
+footer {
+  grid-template-columns: 1fr 1fr 3fr 2fr;
+  grid-template-areas: "logo menu text contact";
+}
+
+.footer_property {
+  grid-area: logo;
+}
+
+.footer_menu {
+  grid-area: menu;
+}
+
+.container_footer--text {
+  grid-area: text;
+}
+
+.footer_contact {
+  grid-area: contact;
+}
+
+.share_link {
+  font-size: var(--desktop-texts-size);
+  line-height: var(--desktop-texts-height);
+}
+
+.footer-text {
+  font-size: var(--desktop-texts-size);
+  line-height: var(--desktop-texts-height);
+}
+
+.contact_text {
+  font-size: var(--desktop-texts-size);
+  line-height: var(--desktop-texts-height);
+}

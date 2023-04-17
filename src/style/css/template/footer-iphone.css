@@ -1,0 +1,83 @@
+footer {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  row-gap: 4.7rem;
+  padding: 3.7rem 4.7rem;
+  background: var(--background-footer-color);
+}
+
+.footer-text {
+  text-align: center;
+  font-size: var(--iphone-texts-size);
+  font-weight: var(--texts-weight);
+  font-family: var(--texts-font-family);
+  line-height: var(--iphone-texts-height);
+  line-break: auto;
+}
+
+.footer_menu {
+  display: grid;
+  row-gap: 13px;
+}
+
+.share_link {
+  text-align: center;
+  color: var(--fonts-color);
+  font-size: var(--iphone-texts-size);
+  font-weight: var(--texts-weight);
+  font-family: var(--texts-font-family);
+  border-bottom: 2px solid #ffffff00;
+}
+
+.share_link:hover {
+  border-bottom: 2px solid var(--line-color);
+  animation: up infinite 2s;
+}
+
+@keyframes up {
+  0% {
+    border-bottom-left-radius: 0.5rem;
+  }
+
+  5% {
+    border-bottom-left-radius: 1rem;
+  }
+
+  10% {
+    border-bottom-left-radius: 2rem;
+  }
+}
+
+.footer_contact {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  row-gap: 13px;
+}
+
+.contact_text {
+  font-size: var(--iphone-texts-size);
+  font-weight: var(--texts-weight);
+  font-family: var(--texts-font-family);
+}
+
+.container_icons--contact {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footer_property {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  row-gap: 1rem;
+}
+
+.property_text {
+  font-family: var(--unic-font-family);
+  font-weight: var(--texts-weight);
+  font-size: 14px;
+}
