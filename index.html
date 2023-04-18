@@ -13,13 +13,65 @@
     <link rel="stylesheet" href="./src/style/css/template/navar-desktop.css" media="screen and (min-width:936px)" />
     <link rel="stylesheet" href="./src/style/css/template/footer-desktop.css" media="screen and (min-width:936px)" />
 
+    <link rel="stylesheet" href="./src/style/css/home-css/index-iphone.css">
+    <link rel="stylesheet" href="./src/style/css/home-css/index-desktop.css" media="screen and (min-width:936px)" />
+
     <script defer src="./src/style/js/template/navar.js"></script>
+    <script defer src="./src/style/js/template/cards.js"></script>
     <script defer src="./src/style/js/template/footer.js"></script>
     <link rel="shortcut icon" href="./src/img/assets/icons-redes/logo_daniel.svg" />
     <title>home</title>
 </head>
 <body>
     <header></header>
+    <main>
+        <section class="container_blog--principal">
+            <section class="container_img--principal">
+                <div class="brillo_top"></div>
+                <figure class="container_blog--img">
+                    <picture>
+                        <source media="(min-width:945px)" srcset="./src/img/img-blog/img-desktop/platzi-conf-22-blog-full.jpg">
+                        <img src="./src/img/img-blog/img-iphone/platzi-conf-22-card.jpg" alt="" class="img--principal">
+                    </picture>
+                </figure>
+                <div class="brillo_bottom"></div>
+            </section>
+            <article class="container_blog--text">
+                <h1 class="title_blog--principal">PLATZI CONF 2022</h1>
+                <p class="estact">#platzi</p>
+                <p class="text_blog--principal">La Platizi Conf en Colombia, un evento lleno de conocimiento y curiosidad para cualquier persona con diferentes metas en
+                el mundo tecnológico. un evento grandioso.</p>
+                <section class="container_description">
+                    <a href="" class="buttom_leer">leer mas</a>
+                    <p class="fecha_blog--principal">12 agosto 2023</p>
+                </section>
+            </article>
+        </section>
+        <section class="container_blogs">
+            <h1>solo la lectura hace creser el alma para comprender sabiduría y emocionarnos con cada historia</h1>
+            <section class="container_cards--blogs">
+                <section class="card_blog">
+                    <figure class="container_img-cards">
+                        <picture>
+                            <img src="./src/img/img-blog/img-iphone/platzi-conf-22-card.jpg" alt="" class="img--cards">
+                        </picture>
+                    </figure>
+                    <article class="container_text--cards">
+                        <div class="contact_title-cards">
+                            <h1 class="titles--card">PLATZI CONF 22</h1>
+                        </div>
+                        <p class="estact">#platzi</p>
+                        <p class="texts_description--cards">La Platizi Conf en Colombia, un evento lleno de conocimiento y curiosidad para cualquier persona con diferentes metas en
+                        el mundo tecnológico. un evento grandioso.</p>
+                        <section class="description-cards">
+                            <a href="" class="buttom_leer--cards">leer mas</a>
+                            <p class="fecha--cards">12 agosto 2023</p>
+                        </section>
+                    </article>
+                </section>
+            </section>
+        </section>
+    </main>
     <footer></footer>
 </body>
 </html>

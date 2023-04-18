@@ -1,0 +1,147 @@
+main {
+    background: var(--background-main-color);
+    padding: 1rem 2rem;
+}
+.container_blog--principal{
+    margin-bottom: 3rem;
+}
+.container_img--principal{
+    margin-bottom: 1.6rem;
+    position: relative;
+}
+.container_blog--img{
+    position: relative;
+    z-index: 1;
+}
+.container_img--principal .brillo_top{
+    width: 22.7rem;
+        height: 24.6rem;
+        border-radius: 100%;
+        background: radial-gradient(50% 50% at 50% 50%,
+                rgba(255, 230, 0, 0.46) 0%,
+                rgba(245, 70, 1, 0.28) 53.12%,
+                rgba(255, 0, 0, 0) 100%);
+        position: absolute;
+        top: -12rem;
+        right: -2rem;
+        pointer-events: none;
+}
+.container_img--principal .brillo_bottom{
+    width: 22.7rem;
+        height: 24.6rem;
+        border-radius: 100%;
+        background: radial-gradient(50% 50% at 50% 50%,
+                rgba(255, 230, 0, 0.46) 0%,
+                rgba(245, 70, 1, 0.28) 53.12%,
+                rgba(255, 0, 0, 0) 100%);
+        position: absolute;
+        bottom: -12rem;
+        left: -11rem;
+        pointer-events: none;
+}
+.container_blog--text{
+    display: grid;
+}
+.title_blog--principal{
+    text-align: center;
+    margin-bottom: 13px;
+    font-size: var(--iphone-titles-bold-size);
+    font-weight: var(--titles-bold-weight);
+    font-family: var(--titles-font-family);
+}
+.text_blog--principal{
+    margin-bottom: 13px;
+    font-size: var(--iphone-texts-size);
+    font-weight: var(--texts-weight);
+    line-height: var(--iphone-texts-height);
+    font-family: var(--texts-font-family);
+    line-break: auto;
+}
+.container_description{
+    display: flex;
+    justify-content: space-between;
+}
+.fecha_blog--principal{
+    font-size: var(--iphone-texts-size);
+    font-weight: var(--texts-weight);
+    font-family: var(--texts-font-family);
+}
+.buttom_leer{
+    font-size: var(--iphone-texts-size);
+    font-weight: var(--titles-weight);
+    font-family: var(--texts-font-family);
+    background: var(--fonts-radial);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container_blogs{
+    display: grid;
+    justify-items: center;
+    margin-bottom: 2rem;
+}
+.card_blog {
+    position: relative;
+    overflow: hidden;
+    height: 27.4rem;
+        width: 33.3rem;
+}
+.card_blog:hover .container_text--cards{
+    top: 0;
+}
+
+.container_blogs > h1{
+    text-align: center;
+    margin: 2rem 0;
+    font-size: var(--iphone-titles-bold-size);
+    font-weight: var(--titles-bold-weight);
+    font-family: var(--titles-font-family);
+}
+.img--cards {
+    height: 27.4rem;
+    width: 33.3rem;
+}
+
+.titles--card{
+    text-align: center;
+    font-size: var(--iphone-titles-bold-size);
+    font-weight: var(--titles-bold-weight);
+    font-family: var(--titles-font-family);
+    margin-bottom: 2rem;
+}
+.container_text--cards {
+    display: grid;
+    background: rgba(11, 10, 10, 0.48);
+    padding: 2rem;
+    position: absolute;
+    height: 100%;
+    top: 211px;
+    transition: top 0.5s ease-in-out;
+}
+.texts_description--cards{
+    margin-bottom: 13px;
+    font-size: var(--iphone-texts-size);
+    font-weight: var(--texts-weight);
+    line-height: var(--iphone-texts-height);
+    font-family: var(--texts-font-family);
+    line-break: auto;
+}
+.description-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.buttom_leer--cards{
+    font-size: var(--iphone-texts-size);
+        font-weight: var(--titles-weight);
+        font-family: var(--texts-font-family);
+        background: var(--fonts-radial);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.fecha--cards{
+    font-size: var(--iphone-texts-size);
+        font-weight: var(--texts-weight);
+        font-family: var(--texts-font-family);
+}
