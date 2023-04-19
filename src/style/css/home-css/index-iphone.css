@@ -81,15 +81,6 @@ main {
     justify-items: center;
     margin-bottom: 2rem;
 }
-.card_blog {
-    position: relative;
-    overflow: hidden;
-    height: 27.4rem;
-        width: 33.3rem;
-}
-.card_blog:hover .container_text--cards{
-    top: 0;
-}
 
 .container_blogs > h1{
     text-align: center;
@@ -98,10 +89,7 @@ main {
     font-weight: var(--titles-bold-weight);
     font-family: var(--titles-font-family);
 }
-.img--cards {
-    height: 27.4rem;
-    width: 33.3rem;
-}
+
 
 .titles--card{
     text-align: center;
@@ -110,38 +98,7 @@ main {
     font-family: var(--titles-font-family);
     margin-bottom: 2rem;
 }
-.container_text--cards {
+.container_cards--blogs{
     display: grid;
-    background: rgba(11, 10, 10, 0.48);
-    padding: 2rem;
-    position: absolute;
-    height: 100%;
-    top: 211px;
-    transition: top 0.5s ease-in-out;
-}
-.texts_description--cards{
-    margin-bottom: 13px;
-    font-size: var(--iphone-texts-size);
-    font-weight: var(--texts-weight);
-    line-height: var(--iphone-texts-height);
-    font-family: var(--texts-font-family);
-    line-break: auto;
-}
-.description-cards{
-    display: flex;
-    justify-content: space-between;
-}
-.buttom_leer--cards{
-    font-size: var(--iphone-texts-size);
-        font-weight: var(--titles-weight);
-        font-family: var(--texts-font-family);
-        background: var(--fonts-radial);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-}
-.fecha--cards{
-    font-size: var(--iphone-texts-size);
-        font-weight: var(--texts-weight);
-        font-family: var(--texts-font-family);
+    row-gap: 2rem;
 }
