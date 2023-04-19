@@ -13,6 +13,13 @@
     height: 27.4rem;
     width: 33.3rem;
 }
+.titles--card {
+    text-align: center;
+    font-size: var(--iphone-titles-bold-size);
+    font-weight: var(--titles-bold-weight);
+    font-family: var(--titles-font-family);
+    margin-bottom: 2rem;
+}
 .container_text--cards {
     display: grid;
     background: rgba(11, 10, 10, 0.48);
@@ -31,6 +38,7 @@
     padding: 2rem;
     position: absolute;
     height: 100%;
+    width: 100%;
     top: 211px;
     transition: top 0.5s ease-in-out;
 }

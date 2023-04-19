@@ -91,13 +91,7 @@ main {
 }
 
 
-.titles--card{
-    text-align: center;
-    font-size: var(--iphone-titles-bold-size);
-    font-weight: var(--titles-bold-weight);
-    font-family: var(--titles-font-family);
-    margin-bottom: 2rem;
-}
+
 .container_cards--blogs{
     display: grid;
     row-gap: 2rem;
