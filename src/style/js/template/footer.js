@@ -10,14 +10,17 @@ const elementsHTMlIphones = [
     imgLogo: "../src/img/assets/icons-redes/logo_daniel.svg",
 
     textFooter:
-      "la organización es el principio de la planeación y el nacimiento de la creación",
+      "La organización es el principio de la planeación y el nacimiento de la creación",
 
     linkeHome: "../index.html",
     textHome: "Home",
 
-    linkeAbout: "./about.html",
-    textAbout: "About",
+    linkeBlogs: "./about.html",
+    textBlog: "Blogs",
 
+    linkeEvents: "./projects.html",
+    textEvents: "Events",
+    
     linkeProjects: "./projects.html",
     textProjects: "Projects",
 
@@ -49,18 +52,23 @@ elementsHTMlIphones.forEach((elIphone) => {
   aShareLinkHome.setAttribute("href", elIphone.linkeHome);
   aShareLinkHome.innerText = `${elIphone.textHome}`;
 
-  //*about
-  const aShareLinkAbout = document.createElement("a");
-  aShareLinkAbout.classList.add("share_link");
-  aShareLinkAbout.setAttribute("href", elIphone.linkeAbout);
-  aShareLinkAbout.innerText = `${elIphone.textAbout}`;
+  //*blogs
+  const aShareLinkBlogs = document.createElement("a");
+  aShareLinkBlogs.classList.add("share_link");
+  aShareLinkBlogs.setAttribute("href", elIphone.linkeBlogs);
+  aShareLinkBlogs.innerText = `${elIphone.textBlog}`;
+
+  //*events
+  const aShareLinkEvents = document.createElement("a");
+  aShareLinkEvents.classList.add("share_link");
+  aShareLinkEvents.setAttribute("href", elIphone.linkeEvents);
+  aShareLinkEvents.innerText = `${elIphone.textEvents}`;
 
   //*projects
   const aShareLinkProjects = document.createElement("a");
   aShareLinkProjects.classList.add("share_link");
   aShareLinkProjects.setAttribute("href", elIphone.linkeProjects);
   aShareLinkProjects.innerText = `${elIphone.textProjects}`;
-
   //*contact
   const aShareLinkContact = document.createElement("a");
   aShareLinkContact.classList.add("share_link");
@@ -69,7 +77,8 @@ elementsHTMlIphones.forEach((elIphone) => {
 
   footerMenu.append(
     aShareLinkHome,
-    aShareLinkAbout,
+    aShareLinkBlogs,
+    aShareLinkEvents,
     aShareLinkProjects,
     aShareLinkContact
   );

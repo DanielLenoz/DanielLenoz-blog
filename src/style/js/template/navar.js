@@ -10,8 +10,11 @@ const elementsHTMlIphone = [
     linkeHome: "../index.html",
     textHome: "Home",
 
-    linkeAbout: "./about.html",
-    textAbout: "About",
+    linkeBlogs: "./Blogs.html",
+    textBlogs: "Blogs",
+
+    linkeEvents: "./Events.html",
+    textEvents: "Events",
 
     linkeProjects: "./projects.html",
     textProjects: "Projects",
@@ -56,17 +59,26 @@ elementsHTMlIphone.forEach((elIphone) => {
   aShareLinkHome.innerText = `${elIphone.textHome}`;
 
   contenidoHome.appendChild(aShareLinkHome);
-  //*about
-  const contenidoAbout = document.createElement("div");
-  contenidoAbout.classList.add("contenido");
-  const aShareLinkAbout = document.createElement("a");
-  aShareLinkAbout.classList.add("share_link");
-  aShareLinkAbout.setAttribute("href", elIphone.linkeAbout);
-  aShareLinkAbout.innerText = `${elIphone.textAbout}`;
+  //*Blogs
+  const contenidoBlogs = document.createElement("div");
+  contenidoBlogs.classList.add("contenido");
+  const aShareLinkBlogs = document.createElement("a");
+  aShareLinkBlogs.classList.add("share_link");
+  aShareLinkBlogs.setAttribute("href", elIphone.linkeBlogs);
+  aShareLinkBlogs.innerText = `${elIphone.textBlogs}`;
 
-  contenidoAbout.appendChild(aShareLinkAbout);
+  contenidoBlogs.appendChild(aShareLinkBlogs);
+  //*events
+  const contenidoEvents = document.createElement("div");
+  contenidoEvents.classList.add("contenido");
+  const aShareLinkEvents = document.createElement("a");
+  aShareLinkEvents.classList.add("share_link");
+  aShareLinkEvents.setAttribute("href", elIphone.linkeEvents);
+  aShareLinkEvents.innerText = `${elIphone.textEvents}`;
+
+  contenidoEvents.appendChild(aShareLinkEvents);
   //*projects
-  const contenidoProjects = document.createElement("div");
+    const contenidoProjects = document.createElement("div");
   contenidoProjects.classList.add("contenido");
   const aShareLinkProjects = document.createElement("a");
   aShareLinkProjects.classList.add("share_link");
@@ -83,12 +95,12 @@ elementsHTMlIphone.forEach((elIphone) => {
   aShareLinkContact.innerText = `${elIphone.textContact}`;
 
   contenidoContact.appendChild(aShareLinkContact);
-  //*
   //----
   //** Contatenacion de todo los elementos
   redContainer.append(
     contenidoHome,
-    contenidoAbout,
+    contenidoBlogs,
+    contenidoEvents,
     contenidoProjects,
     contenidoContact
   );
@@ -107,8 +119,11 @@ elementsHTMlDesktop = [
     linkeHome: "../index.html",
     textHome: "Home",
 
-    linkeAbout: "./about.html",
-    textAbout: "About",
+    linkeBlogs: "./Blogs.html",
+    textBlogs: "Blogs",
+
+    linkeEvents: "./Events.html",
+    textEvents: "Events",
 
     linkeProjects: "./projects.html",
     textProjects: "Projects",
@@ -145,17 +160,26 @@ elementsHTMlDesktop.forEach((elDesktop) => {
   aShareLinkHome.innerText = `${elDesktop.textHome}`;
 
   contenidoHome.appendChild(aShareLinkHome);
-  //*about
-  const contenidoAbout = document.createElement("div");
-  contenidoAbout.classList.add("contenido");
-  const aShareLinkAbout = document.createElement("a");
-  aShareLinkAbout.classList.add("share_link");
-  aShareLinkAbout.setAttribute("href", elDesktop.linkeAbout);
-  aShareLinkAbout.innerText = `${elDesktop.textAbout}`;
+  //*Blogs
+  const contenidoBlogs = document.createElement("div");
+  contenidoBlogs.classList.add("contenido");
+  const aShareLinkBlogs = document.createElement("a");
+  aShareLinkBlogs.classList.add("share_link");
+  aShareLinkBlogs.setAttribute("href", elDesktop.linkeBlogs);
+  aShareLinkBlogs.innerText = `${elDesktop.textBlogs}`;
 
-  contenidoAbout.appendChild(aShareLinkAbout);
+  contenidoBlogs.appendChild(aShareLinkBlogs);
+  //*Events
+  const contenidoEvents = document.createElement("div");
+  contenidoEvents.classList.add("contenido");
+  const aShareLinkEvents = document.createElement("a");
+  aShareLinkEvents.classList.add("share_link");
+  aShareLinkEvents.setAttribute("href", elDesktop.linkeEvents);
+  aShareLinkEvents.innerText = `${elDesktop.textEvents}`;
+
+  contenidoEvents.appendChild(aShareLinkEvents);
   //*projects
-  const contenidoProjects = document.createElement("div");
+    const contenidoProjects = document.createElement("div");
   contenidoProjects.classList.add("contenido");
   const aShareLinkProjects = document.createElement("a");
   aShareLinkProjects.classList.add("share_link");
@@ -175,7 +199,8 @@ elementsHTMlDesktop.forEach((elDesktop) => {
   //*concatenacion de los elementos
   redContainer.append(
     contenidoHome,
-    contenidoAbout,
+    contenidoBlogs,
+    contenidoEvents,
     contenidoProjects,
     contenidoContact
   );
