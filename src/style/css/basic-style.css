@@ -21,6 +21,10 @@
   --desktop-titles-bold-size: 28px;
   --desktop-texts-size: 20px;
   --desktop-texts-height: 31px;
+  /*variables para hashtag */
+  --color-blogs:#AA67FF;
+  --color-events:#88ED23;
+  --color-projects:#0AB7B7;
 }
 
 * {

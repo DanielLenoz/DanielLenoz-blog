@@ -1,15 +1,18 @@
 .card_blog {
     position: relative;
     overflow: hidden;
-    height: 27.4rem;
-    width: 33.3rem;
+    height: 100%;
+     width: 100%;
     border-radius: 2rem;
 }
 
 
-.img--cards {
-    height: 27.4rem;
-    width: 33.3rem;
+.container_img-cards, .img--cards {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .titles--card {
     text-align: center;

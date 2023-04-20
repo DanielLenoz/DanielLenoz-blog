@@ -13,6 +13,14 @@ main {
     position: relative;
     z-index: 1;
 }
+.container_blog--img,
+.img--principal {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .container_img--principal .brillo_top{
     width: 22.7rem;
         height: 24.6rem;
@@ -49,6 +57,12 @@ main {
     font-weight: var(--titles-bold-weight);
     font-family: var(--titles-font-family);
 }
+.container_blog--text .hashtag{
+    color:var(--color-blogs);
+    font-size: var(--iphone-texts-size);
+    font-weight: var(--titles-weight);
+    font-family: var(--titles-font-family);
+}
 .text_blog--principal{
     margin-bottom: 13px;
     font-size: var(--iphone-texts-size);
@@ -78,7 +92,6 @@ main {
 
 .container_blogs{
     display: grid;
-    justify-items: center;
     margin-bottom: 2rem;
 }
 
@@ -89,10 +102,11 @@ main {
     font-weight: var(--titles-bold-weight);
     font-family: var(--titles-font-family);
 }
-
-
-
 .container_cards--blogs{
     display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(33.3rem, 41.6rem));
+    grid-template-rows: repeat(auto-fit, minmax(27.4rem, 27.4rem));
+    column-gap: 2rem;
     row-gap: 2rem;
 }
