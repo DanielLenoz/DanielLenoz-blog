@@ -96,8 +96,8 @@ elementsCards.forEach((the) => {
     containerImgCards.classList.add("container_img-cards");
     const pictureImg = document.createElement("picture");
     const imgCards = document.createElement("img");
-    imgCards.classList.add("img--cards");
     imgCards.setAttribute('src', the.imgCards)
+    imgCards.classList.add("img--cards");
 
     pictureImg.appendChild(imgCards);
     containerImgCards.appendChild(pictureImg);
@@ -117,7 +117,7 @@ elementsCards.forEach((the) => {
     const hashtag = document.createElement("p");
     hashtag.classList.add("hashtag");
     hashtag.setAttribute('style', `color: ${the.colorHashtag}`);
-    hashtag.innerText = `${the.hashtag}`;
+    hashtag.innerText = the.hashtag;
     const textsDescriptionCards = document.createElement("p");
     textsDescriptionCards.classList.add("texts_description--cards");
     textsDescriptionCards.innerText = the.textsDescription;
@@ -127,10 +127,10 @@ elementsCards.forEach((the) => {
     descriptionCards.classList.add("description-cards");
 
     const buttomLeer = document.createElement("a");
+    buttomLeer.setAttribute('href', the.linksButtomLeer);
     buttomLeer.classList.add("buttom_leer--cards");
     buttomLeer.innerText = "leer mas";
-    buttomLeer.setAttribute('href', the.linksButtomLeer);
-    const fechaCards = document.querySelector("p");
+    const fechaCards = document.createElement("p");
     fechaCards.classList.add("fecha--cards")
     fechaCards.innerText = the.fechaCards;
 

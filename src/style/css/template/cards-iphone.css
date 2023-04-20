@@ -6,9 +6,7 @@
     border-radius: 2rem;
 }
 
-.card_blog:hover .container_text--cards {
-    top: 0;
-}
+
 .img--cards {
     height: 27.4rem;
     width: 33.3rem;
@@ -20,18 +18,12 @@
     font-family: var(--titles-font-family);
     margin-bottom: 2rem;
 }
-.container_text--cards {
-    display: grid;
-    background: rgba(11, 10, 10, 0.48);
-    padding: 2rem;
-    position: absolute;
-    height: 100%;
-    top: 211px;
-    transition: top 0.5s ease-in-out;
+.hashtag {
+    font-size: var(--iphone-texts-size);
+    font-weight: var(--titles-weight);
+    font-family: var(--titles-font-family);
 }
-.card_blog:hover .container_text--cards {
-    top: 0;
-}
+
 .container_text--cards {
     display: grid;
     background: rgba(11, 10, 10, 0.48);
