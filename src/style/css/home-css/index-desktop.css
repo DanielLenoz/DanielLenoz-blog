@@ -3,7 +3,7 @@
     justify-content: center;
     grid-template-columns: minmax(26.2rem, 66.2rem) minmax(25.5rem, 65.5rem);
     grid-template-rows: 38.9rem;
-    margin: 3rem 0;
+    margin: 3rem 0 0;
 }
 .container_img--principal .brillo_top{
     right: -10rem;
@@ -39,31 +39,6 @@
 }
 
 .container_blogs > h1{
-    margin: 6rem 24rem;
+    margin: 5rem 24rem;
     font-size: var(--desktop-titles-bold-size);
-}
-.container_cards--blogs{
-    grid-template-columns: repeat(auto-fit, minmax(33.3rem, 41.6rem));
-    grid-template-rows: repeat(auto-fit, minmax(27.4rem, 31.7rem));
-    column-gap: 2rem;
-}
-.contact_title-cards .titles--card{
-    font-size: var(--desktop-titles-bold-size);
-}
-.card_blog .container_text--cards{
-    top: 239px;
-}
-.container_text--cards .hashtag{
-    font-size: var(--desktop-texts-size);
-}
-.container_text--cards .texts_description--cards{
-    font-size: var(--desktop-texts-size);
-    font-weight: var(--texts-weight);
-    line-height: var(--desktop-texts-height);
-}
-.description-cards .buttom_leer--cards{
-    font-size: var(--desktop-texts-size);
-}
-.description-cards .fecha--cards{
-    font-size: var(--desktop-texts-size);
 }
