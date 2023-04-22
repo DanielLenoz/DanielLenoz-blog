@@ -5,6 +5,9 @@ main{
     padding: 2rem 0;
     position: relative;
 }
+.contact_img--blog{
+    margin: 0 auto 4rem;
+}
 .contact_img--blog, .img_blog{
     width: 33.7rem;
     height: 22.8rem;
@@ -71,6 +74,17 @@ main{
 }
 .container_ultimos_blogs{
     position: relative;
+    margin-bottom: 5rem;
+}
+.container_ultimos_blogs .brillo-left {
+    width: 22.7rem;
+    height: 24.6rem;
+    border-radius: 100%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 230, 0, 0.46) 0%, rgba(245, 70, 1, 0.28) 53.12%, rgba(255, 0, 0, 0) 100%);
+    position: absolute;
+    top: -5rem;
+    left: -10rem;
+    pointer-events: none;
 }
 
 .container_ultimos_blogs > h1{

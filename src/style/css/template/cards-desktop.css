@@ -18,7 +18,6 @@
 
 .container_text--cards .texts_description--cards {
     font-size: var(--desktop-texts-size);
-    font-weight: var(--texts-weight);
     line-height: var(--desktop-texts-height);
 }
 

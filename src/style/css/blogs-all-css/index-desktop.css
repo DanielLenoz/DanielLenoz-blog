@@ -1,0 +1,63 @@
+.contact_img--blog, .img_blog{
+    width: 115rem;
+    height: 31.7rem;
+}
+.container_blog--full .brillo-right {
+    width: 22.7rem;
+    height: 24.6rem;
+    border-radius: 100%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 230, 0, 0.46) 0%, rgba(245, 70, 1, 0.28) 53.12%, rgba(255, 0, 0, 0) 100%);
+    position: absolute;
+    top: 21rem;
+        right: 9rem;
+    pointer-events: none;
+}
+.container_blog--full .brillo-left {
+    width: 22.7rem;
+    height: 24.6rem;
+    border-radius: 100%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 230, 0, 0.46) 0%, rgba(245, 70, 1, 0.28) 53.12%, rgba(255, 0, 0, 0) 100%);
+    position: absolute;
+    top: 33rem;
+        left: 4rem;
+    pointer-events: none;
+}
+.container_text{
+    margin: 0 27.3rem;
+}
+.container_ultimos_blogs .brillo-left {
+    width: 22.7rem;
+    height: 24.6rem;
+    border-radius: 100%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 230, 0, 0.46) 0%, rgba(245, 70, 1, 0.28) 53.12%, rgba(255, 0, 0, 0) 100%);
+    position: absolute;
+top: -4rem;
+    left: 3rem;
+    pointer-events: none;
+}
+.container_ultimos_blogs .brillo-right {
+    width: 22.7rem;
+    height: 24.6rem;
+    border-radius: 100%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 230, 0, 0.46) 0%, rgba(245, 70, 1, 0.28) 53.12%, rgba(255, 0, 0, 0) 100%);
+    position: absolute;
+    top: -4rem;
+        right: 3rem;
+    pointer-events: none;
+}
+.title_blog--full{
+    font-size: var(--desktop-titles-bold-size);
+}
+.hashtag--blog{
+    font-size: var(--desktop-texts-size);
+}
+.fecha_blog--full{
+    font-size: var(--desktop-texts-size);
+}
+.text_blog--full{
+    font-size: var(--desktop-texts-size);
+    line-height: var(--desktop-texts-height);
+}
+.container_ultimos_blogs > h1{
+    font-size: var(--desktop-titles-bold-size);
+}
