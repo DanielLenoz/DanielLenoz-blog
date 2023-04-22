@@ -2,11 +2,12 @@ const containerCardsBlogs2 = document.querySelector(".container_cards--blogs")
 
 
 
-const search = (query) => { 
-    return elementsCardsAll2.filter(hashtag => {
-        return hashtag.hashtag.includes(query)
-    })
-}
+// const search = (query) => { 
+//     return elementsCardsAll2.filter(hashtag => {
+//         return hashtag.hashtag.includes(query)
+//     })
+// }
+const search = (query) => elementsCardsAll2.filter(hashtag => hashtag.hashtag.includes(query))
 
 search("#Blog").forEach((the) => {
     const cardBlog2 = document.createElement("section");
