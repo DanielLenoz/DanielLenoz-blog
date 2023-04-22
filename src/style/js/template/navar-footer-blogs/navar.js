@@ -1,12 +1,13 @@
+//navar contenido
 const header = document.querySelector("header");
 //*modelo iphone
 
 const elementsHTMlIphone = [
   {
-    imgOpen: "./src/img/assets/icons-template/menu_open.svg",
-    imgClose: "./src/img/assets/icons-template/menu_close.svg",
+    imgOpen: "../../src/img/assets/icons-template/menu_open.svg",
+    imgClose: "../../src/img/assets/icons-template/menu_close.svg",
 
-    linkeHome: "./index.html",
+    linkeHome: "../../index.html",
     textHome: "Home",
 
     linkeBlogs: "./Blogs.html",
@@ -113,9 +114,9 @@ elementsHTMlIphone.forEach((elIphone) => {
 //!--------
 elementsHTMlDesktop = [
   {
-    logo:"./src/img/assets/icons-redes/logo_daniel.svg",
+    logo:"../../src/img/assets/icons-redes/logo_daniel.svg",
 
-    linkeHome: "./index.html",
+    linkeHome: "../../index.html",
     textHome: "Home",
 
     linkeBlogs: "./Blogs.html",

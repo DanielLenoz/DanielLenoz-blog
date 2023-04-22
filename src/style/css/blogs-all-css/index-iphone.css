@@ -1,56 +1,82 @@
 main{
     padding: 1rem 2rem;
 }
-.container_img--background{
-    width: 33.7rem;
-    height: 23.8rem;
+.container_blog--full{
+    padding: 2rem 0;
     position: relative;
-    display: grid;
-    justify-content: center;
-    margin-bottom: 5rem;
 }
-.contact_img > picture{
-    display: grid;
-    justify-items: center;
-}
-.contact_img, .img_background{
-    width: 100%;
-    height: 100%;
+.contact_img--blog, .img_blog{
+    width: 33.7rem;
+    height: 22.8rem;
+    position: relative;
+    z-index: 1;
     border-radius: 2rem;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.title_front{
-    position: absolute;
-    text-align: center;
-    align-self: center;
-    padding: 3rem;
-    font-size: var(--iphone-titles-bold-size);
-    font-weight: var(--titles-bold-weight);
-    font-family: var(--titles-font-family);
-}
-.container--blogs{
-    position: relative;
-    margin-bottom: 8.6rem;
-}
-/* .container--blogs .brillo-right{
-        width: 22.7rem;
-            height: 24.6rem;
-            border-radius: 100%;
-            background: radial-gradient(50% 50% at 50% 50%, rgba(255, 230, 0, 0.46) 0%, rgba(245, 70, 1, 0.28) 53.12%, rgba(255, 0, 0, 0) 100%);
-            position: absolute;
-            top: -12rem;
-            right: -2rem;
-            pointer-events: none;
-} */
-.container--blogs .brillo-left{
+.container_blog--full .brillo-left{
     width: 22.7rem;
         height: 24.6rem;
         border-radius: 100%;
         background: radial-gradient(50% 50% at 50% 50%, rgba(255, 230, 0, 0.46) 0%, rgba(245, 70, 1, 0.28) 53.12%, rgba(255, 0, 0, 0) 100%);
         position: absolute;
-        top: -12rem;
-        left: -11rem;
+        top: 24rem;
+        left: -13rem;
         pointer-events: none;
+}
+.container_blog--full .brillo-right{
+    width: 22.7rem;
+        height: 24.6rem;
+        border-radius: 100%;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(255, 230, 0, 0.46) 0%, rgba(245, 70, 1, 0.28) 53.12%, rgba(255, 0, 0, 0) 100%);
+        position: absolute;
+        top: 12rem;
+        right: -2rem;
+        pointer-events: none;
+}
+
+.container_text{
+    margin-top: 1.7rem;
+}
+.title_blog--full{
+        margin-bottom: 13px;
+            font-size: var(--iphone-titles-bold-size);
+            font-weight: var(--titles-bold-weight);
+            font-family: var(--titles-font-family);
+}
+.container_description_blog--full{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+.hashtag--blog{
+        color: var(--color-blogs);
+            font-size: var(--iphone-texts-size);
+            font-weight: var(--titles-weight);
+            font-family: var(--titles-font-family);
+}
+.fecha_blog--full{
+    font-size: var(--iphone-texts-size);
+        font-weight: var(--texts-weight);
+        font-family: var(--texts-font-family);
+}
+.text_blog--full{
+    margin-bottom: 3rem;
+        font-size: var(--iphone-texts-size);
+            font-weight: var(--texts-weight);
+            line-height: var(--iphone-texts-height);
+            font-family: var(--texts-font-family);
+            line-break: auto;
+}
+.container_ultimos_blogs{
+    position: relative;
+}
+
+.container_ultimos_blogs > h1{
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: var(--iphone-titles-bold-size);
+    font-weight: var(--titles-bold-weight);
+    font-family: var(--titles-font-family);
 }

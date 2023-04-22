@@ -1,17 +1,18 @@
+// contenedor de footer
 const footer = document.querySelector("footer");
 
 //*modelo iphone */
 
 const elementsHTMlIphones = [
   {
-    imgLinkedin: "./src/img/assets/icons-redes/linkedin.svg",
-    imgGithub: "./src/img/assets/icons-redes/github.svg",
-    imgLogo: "./src/img/assets/icons-redes/logo_daniel.svg",
+    imgLinkedin: "../src/img/assets/icons-redes/linkedin.svg",
+    imgGithub: "../src/img/assets/icons-redes/github.svg",
+    imgLogo: "../src/img/assets/icons-redes/logo_daniel.svg",
 
     textFooter:
       "La organización es el principio de la planeación y el nacimiento de la creación",
 
-    linkeHome: "./index.html",
+    linkeHome: "../index.html",
     textHome: "Home",
 
     linkeBlogs: "./about.html",

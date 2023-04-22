@@ -1,0 +1,23 @@
+.container_img--background{
+    width: 124.4rem;
+    height: 32.1rem;
+    margin: 2rem auto 6rem;
+}
+.title_front{
+    font-size: var(--desktop-titles-bold-size);
+    padding:  0 20rem;
+}
+.container--blogs .brillo-right{
+        width: 22.7rem;
+            height: 24.6rem;
+            border-radius: 100%;
+            background: radial-gradient(50% 50% at 50% 50%, rgba(255, 230, 0, 0.46) 0%, rgba(245, 70, 1, 0.28) 53.12%, rgba(255, 0, 0, 0) 100%);
+            position: absolute;
+            top: -8rem;
+            right: -2rem;
+            pointer-events: none;
+}
+.container--blogs .brillo-left {
+    top: -8rem;
+    left: -2rem;
+}
