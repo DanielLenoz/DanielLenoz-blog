@@ -58,7 +58,7 @@ const elementsCardsAll3 = [
         fechaCards: '12 agosto 2023',
     },
     {
-        imgCards: '../../src/img/img-blog/img-iphone/trabajo-animacion.jpg',
+        imgCards: '../../src/img/img-blog/img-iphone/first-animacion.jpg',
         titlesCards: 'FIRST ANIMATION',
         hashtag: '#Projects',
         colorHashtag: projects,//*!color delos hasthag */
