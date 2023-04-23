@@ -14,13 +14,13 @@ const elementsHTMlIphones = [
     linkeHome: "./index.html",
     textHome: "Home",
 
-    linkeBlogs: "./about.html",
+    linkeBlogs: "./public/blogs.html",
     textBlog: "Blogs",
 
-    linkeEvents: "./projects.html",
+    linkeEvents: "./public/events.html",
     textEvents: "Events",
     
-    linkeProjects: "./projects.html",
+    linkeProjects: "./public/projects.html",
     textProjects: "Projects",
 
     linkeContact: "#",

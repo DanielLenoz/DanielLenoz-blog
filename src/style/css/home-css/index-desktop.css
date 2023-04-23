@@ -20,7 +20,10 @@
     align-self: center;
     font-size: var(--desktop-titles-bold-size);
 }
-.container_blog--text .hashtag{
+
+.hashtag--blogs,
+.hashtag--events,
+.hashtag--projects {
     font-size: var(--desktop-texts-size);
 }
 .text_blog--principal{

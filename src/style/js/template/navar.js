@@ -9,13 +9,13 @@ const elementsHTMlIphone = [
     linkeHome: "./index.html",
     textHome: "Home",
 
-    linkeBlogs: "./Blogs.html",
+    linkeBlogs: "./public/blogs.html",
     textBlogs: "Blogs",
 
-    linkeEvents: "./Events.html",
+    linkeEvents: "./public/events.html",
     textEvents: "Events",
 
-    linkeProjects: "./projects.html",
+    linkeProjects: "./public/projects.html",
     textProjects: "Projects",
 
     linkeContact: "#",
@@ -118,13 +118,13 @@ elementsHTMlDesktop = [
     linkeHome: "./index.html",
     textHome: "Home",
 
-    linkeBlogs: "./Blogs.html",
+    linkeBlogs: "./public/blogs.html",
     textBlogs: "Blogs",
 
-    linkeEvents: "./Events.html",
+    linkeEvents: "./public/events.html",
     textEvents: "Events",
 
-    linkeProjects: "./projects.html",
+    linkeProjects: "./public/projects.html",
     textProjects: "Projects",
 
     linkeContact: "#",

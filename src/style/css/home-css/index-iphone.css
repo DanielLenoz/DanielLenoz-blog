@@ -57,8 +57,23 @@ main {
     font-weight: var(--titles-bold-weight);
     font-family: var(--titles-font-family);
 }
-.container_blog--text .hashtag{
-    color:var(--color-blogs);
+
+.hashtag--blogs {
+    color: var(--color-blogs);
+    font-size: var(--iphone-texts-size);
+    font-weight: var(--titles-weight);
+    font-family: var(--titles-font-family);
+}
+
+.hashtag--events {
+    color: var(--color-events);
+    font-size: var(--iphone-texts-size);
+    font-weight: var(--titles-weight);
+    font-family: var(--titles-font-family);
+}
+
+.hashtag--projects {
+    color: var(--color-projects);
     font-size: var(--iphone-texts-size);
     font-weight: var(--titles-weight);
     font-family: var(--titles-font-family);

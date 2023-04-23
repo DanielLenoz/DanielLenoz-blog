@@ -10,10 +10,10 @@ const elementsHTMlIphone = [
     linkeHome: "../index.html",
     textHome: "Home",
 
-    linkeBlogs: "./Blogs.html",
+    linkeBlogs: "./blogs.html",
     textBlogs: "Blogs",
 
-    linkeEvents: "./Events.html",
+    linkeEvents: "./events.html",
     textEvents: "Events",
 
     linkeProjects: "./projects.html",
@@ -119,10 +119,10 @@ elementsHTMlDesktop = [
     linkeHome: "../index.html",
     textHome: "Home",
 
-    linkeBlogs: "./Blogs.html",
+    linkeBlogs: "./blogs.html",
     textBlogs: "Blogs",
 
-    linkeEvents: "./Events.html",
+    linkeEvents: "./events.html",
     textEvents: "Events",
 
     linkeProjects: "./projects.html",
