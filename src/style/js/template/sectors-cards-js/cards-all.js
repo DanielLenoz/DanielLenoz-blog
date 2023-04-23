@@ -77,13 +77,4 @@ const elementsCardsAll2 = [
         linksButtomLeer: '#',
         fechaCards: '12 agosto 2023',
     },
-    {
-        imgCards: '../src/img/img-blog/img-iphone/clone-google.jpg',
-        titlesCards: 'CLONE GOOGLE',
-        hashtag: '#Projects',
-        colorHashtag: projects,//*!color delos hasthag */
-        textsDescription: 'Uno de mis primeros códigos Front-end en pandemia es un código sencillo pero fue uno de los que me abrieron la mente al mundo de la tecnología cuando caventura del 2020.',
-        linksButtomLeer: '#',
-        fechaCards: '12 agosto 2023',
-    },
 ]
