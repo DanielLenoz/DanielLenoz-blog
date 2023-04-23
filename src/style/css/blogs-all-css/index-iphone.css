@@ -53,8 +53,20 @@ main{
     justify-content: space-between;
     margin-bottom: 13px;
 }
-.hashtag--blog{
+.hashtag--blogs{
         color: var(--color-blogs);
+            font-size: var(--iphone-texts-size);
+            font-weight: var(--titles-weight);
+            font-family: var(--titles-font-family);
+}
+.hashtag--events{
+        color: var(--color-events);
+            font-size: var(--iphone-texts-size);
+            font-weight: var(--titles-weight);
+            font-family: var(--titles-font-family);
+}
+.hashtag--projects{
+        color: var(--color-projects);
             font-size: var(--iphone-texts-size);
             font-weight: var(--titles-weight);
             font-family: var(--titles-font-family);

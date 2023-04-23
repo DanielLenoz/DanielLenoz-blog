@@ -48,7 +48,7 @@ top: -4rem;
 .title_blog--full{
     font-size: var(--desktop-titles-bold-size);
 }
-.hashtag--blog{
+.hashtag--blogs,.hashtag--events,.hashtag--projects{
     font-size: var(--desktop-texts-size);
 }
 .fecha_blog--full{
