@@ -19,7 +19,7 @@ const elementsHTMlIphones = [
 
     linkeEvents: "./public/events.html",
     textEvents: "Events",
-    
+
     linkeProjects: "./public/projects.html",
     textProjects: "Projects",
 

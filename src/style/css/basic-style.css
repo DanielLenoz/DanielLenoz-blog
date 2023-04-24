@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Oswald:wght@400;700&family=Roboto&display=swap");
 :root {
-  --fonts-color: #F1FEFF;
+  --fonts-color: #f1feff;
   --fonts-radial: linear-gradient(180deg, #ffe600 0%, #f54601 100%);
   --line-color: #bd4103;
   --background-header-color: #0f172a;
-  --background-footer-color: #231F1F;
+  --background-footer-color: #231f1f;
   --background-main-color: #0f172a;
   /* variables text */
   --texts-weight: 400;
@@ -22,9 +22,9 @@
   --desktop-texts-size: 20px;
   --desktop-texts-height: 31px;
   /*variables para hashtag */
-  --color-blogs:#AA67FF;
-  --color-events:#88ED23;
-  --color-projects:#0AB7B7;
+  --color-blogs: #aa67ff;
+  --color-events: #88ed23;
+  --color-projects: #0ab7b7;
 }
 
 * {
@@ -42,7 +42,7 @@ body {
   background: var(--background-color);
   color: var(--fonts-color);
 }
-main{
+main {
   background: var(--background-main-color);
 }
 a {

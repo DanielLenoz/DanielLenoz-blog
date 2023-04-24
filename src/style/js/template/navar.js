@@ -77,7 +77,7 @@ elementsHTMlIphone.forEach((elIphone) => {
 
   contenidoEvents.appendChild(aShareLinkEvents);
   //*projects
-    const contenidoProjects = document.createElement("div");
+  const contenidoProjects = document.createElement("div");
   contenidoProjects.classList.add("contenido");
   const aShareLinkProjects = document.createElement("a");
   aShareLinkProjects.classList.add("share_link");
@@ -113,7 +113,7 @@ elementsHTMlIphone.forEach((elIphone) => {
 //!--------
 elementsHTMlDesktop = [
   {
-    logo:"./src/img/assets/icons-redes/logo_daniel.svg",
+    logo: "./src/img/assets/icons-redes/logo_daniel.svg",
 
     linkeHome: "./index.html",
     textHome: "Home",
@@ -144,7 +144,7 @@ elementsHTMlDesktop.forEach((elDesktop) => {
   const containerLogo = document.createElement("div");
   containerLogo.classList.add("container_logo");
   const imgLogo = document.createElement("img");
-  imgLogo.setAttribute('src', elDesktop.logo);
+  imgLogo.setAttribute("src", elDesktop.logo);
   const textLogo = document.createElement("p");
   textLogo.classList.add("text_logo");
   textLogo.innerText = "Portafolio";
@@ -178,7 +178,7 @@ elementsHTMlDesktop.forEach((elDesktop) => {
 
   contenidoEvents.appendChild(aShareLinkEvents);
   //*projects
-    const contenidoProjects = document.createElement("div");
+  const contenidoProjects = document.createElement("div");
   contenidoProjects.classList.add("contenido");
   const aShareLinkProjects = document.createElement("a");
   aShareLinkProjects.classList.add("share_link");
@@ -205,7 +205,7 @@ elementsHTMlDesktop.forEach((elDesktop) => {
   );
 
   containerMenuDesktop.appendChild(redContainer);
-  navarDesktop.append(containerLogo,containerMenuDesktop);
+  navarDesktop.append(containerLogo, containerMenuDesktop);
 
   header.appendChild(navarDesktop);
 });

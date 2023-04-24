@@ -1,47 +1,48 @@
-.container_blog--principal{
-    display: grid;
-    justify-content: center;
-    grid-template-columns: minmax(26.2rem, 66.2rem) minmax(25.5rem, 65.5rem);
-    grid-template-rows: 38.9rem;
-    margin: 3rem 0 0;
+.container_blog--principal {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: minmax(26.2rem, 66.2rem) minmax(25.5rem, 65.5rem);
+  grid-template-rows: 38.9rem;
+  margin: 3rem 0 0;
 }
-.container_img--principal .brillo_top{
-    right: -10rem;
+.container_img--principal .brillo_top {
+  right: -10rem;
 }
-.container_blog--img, .img--principal{
-    width: 100%;
-    height: 100%;
+.container_blog--img,
+.img--principal {
+  width: 100%;
+  height: 100%;
 }
-.container_blog--text{
-    margin: 1rem 3rem;
+.container_blog--text {
+  margin: 1rem 3rem;
 }
-.title_blog--principal{
-    text-align: start;
-    align-self: center;
-    font-size: var(--desktop-titles-bold-size);
+.title_blog--principal {
+  text-align: start;
+  align-self: center;
+  font-size: var(--desktop-titles-bold-size);
 }
 
 .hashtag--blogs,
 .hashtag--events,
 .hashtag--projects {
-    font-size: var(--desktop-texts-size);
+  font-size: var(--desktop-texts-size);
 }
-.text_blog--principal{
-    font-size: var(--desktop-texts-size);
-    font-weight: var(--texts-weight);
-    line-height: var(--desktop-texts-height);
+.text_blog--principal {
+  font-size: var(--desktop-texts-size);
+  font-weight: var(--texts-weight);
+  line-height: var(--desktop-texts-height);
 }
-.container_description{
-    align-items: center;
+.container_description {
+  align-items: center;
 }
-.buttom_leer{
-    font-size: var(--desktop-texts-size);
+.buttom_leer {
+  font-size: var(--desktop-texts-size);
 }
-.fecha_blog--principal{
-    font-size: var(--desktop-texts-size);
+.fecha_blog--principal {
+  font-size: var(--desktop-texts-size);
 }
 
-.container_blogs > h1{
-    margin: 5rem 24rem;
-    font-size: var(--desktop-titles-bold-size);
+.container_blogs > h1 {
+  margin: 5rem 24rem;
+  font-size: var(--desktop-titles-bold-size);
 }

@@ -1,30 +1,30 @@
 .container_cards--blogs {
-    grid-template-columns: repeat(auto-fit, minmax(33.3rem, 41.6rem));
-    grid-auto-rows: minmax(27.4rem, 31.7rem);
-    column-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(33.3rem, 41.6rem));
+  grid-auto-rows: minmax(27.4rem, 31.7rem);
+  column-gap: 2rem;
 }
 
 .contact_title-cards .titles--card {
-    font-size: var(--desktop-titles-bold-size);
+  font-size: var(--desktop-titles-bold-size);
 }
 
 .card_blog .container_text--cards {
-    top: 239px;
+  top: 239px;
 }
 
 .container_text--cards .hashtag {
-    font-size: var(--desktop-texts-size);
+  font-size: var(--desktop-texts-size);
 }
 
 .container_text--cards .texts_description--cards {
-    font-size: var(--desktop-texts-size);
-    line-height: var(--desktop-texts-height);
+  font-size: var(--desktop-texts-size);
+  line-height: var(--desktop-texts-height);
 }
 
 .description-cards .buttom_leer--cards {
-    font-size: var(--desktop-texts-size);
+  font-size: var(--desktop-texts-size);
 }
 
 .description-cards .fecha--cards {
-    font-size: var(--desktop-texts-size);
+  font-size: var(--desktop-texts-size);
 }
