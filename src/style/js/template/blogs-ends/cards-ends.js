@@ -9,6 +9,7 @@ elementsCardsAll3.slice(0, 3).forEach((the) => {
   const pictureImg3 = document.createElement("picture");
   const imgCards3 = document.createElement("img");
   imgCards3.setAttribute("src", the.imgCards);
+  imgCards3.setAttribute("alt", the.altDescription);
   imgCards3.classList.add("img--cards");
 
   pictureImg3.appendChild(imgCards3);
@@ -40,6 +41,7 @@ elementsCardsAll3.slice(0, 3).forEach((the) => {
 
   const buttomLeer3 = document.createElement("a");
   buttomLeer3.setAttribute("href", the.linksButtomLeer);
+  buttomLeer3.setAttribute("aria-label", "leer todo el blog completo");
   buttomLeer3.classList.add("buttom_leer--cards");
   buttomLeer3.innerText = "leer mas";
   const fechaCards3 = document.createElement("p");

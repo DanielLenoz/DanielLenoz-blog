@@ -5,6 +5,7 @@ const blogs = "#AA67FF";
 const elementsCardsAll3 = [
   {
     imgCards: "../../src/img/img-blog/img-iphone/rios-card.jpg",
+    altDescription: "blog rios sabiduria",
     titlesCards: "KNOWLEDGE´S RIVERS",
     hashtag: "#Blogs",
     colorHashtag: blogs, //*!color delos hasthag */
@@ -15,6 +16,7 @@ const elementsCardsAll3 = [
   },
   {
     imgCards: "../../src/img/img-blog/img-iphone/platzi-conf-22-card.jpg",
+    altDescription: "platzi conf 2022",
     titlesCards: "PLATZI CONF 22",
     hashtag: "#Event",
     colorHashtag: events, //*!color delos hasthag */
@@ -25,6 +27,7 @@ const elementsCardsAll3 = [
   },
   {
     imgCards: "../../src/img/img-blog/img-iphone/portafolio.jpg",
+    altDescription: "proyecto portafolio",
     titlesCards: "PORTAFOLIO",
     hashtag: "#Projects",
     colorHashtag: projects, //*!color delos hasthag */
@@ -35,6 +38,7 @@ const elementsCardsAll3 = [
   },
   {
     imgCards: "../../src/img/img-blog/img-iphone/metaverso-card.jpg",
+    altDescription: "metaverso blog",
     titlesCards: "EL METAVERSO",
     hashtag: "#Blog",
     colorHashtag: blogs, //*!color delos hasthag */
@@ -45,6 +49,7 @@ const elementsCardsAll3 = [
   },
   {
     imgCards: "../../src/img/img-blog/img-iphone/platzi-conf-card.jpg",
+    altDescription: "platzi conf españa",
     titlesCards: "PLATZI CONF ES",
     hashtag: "#Event",
     colorHashtag: events, //*!color delos hasthag */
@@ -55,6 +60,7 @@ const elementsCardsAll3 = [
   },
   {
     imgCards: "../../src/img/img-blog/img-iphone/proyect-blog.jpg",
+    altDescription: "proyecto blog",
     titlesCards: "PROYECTO BLOG",
     hashtag: "#Projects",
     colorHashtag: projects, //*!color delos hasthag */
@@ -65,6 +71,7 @@ const elementsCardsAll3 = [
   },
   {
     imgCards: "../../src/img/img-blog/img-iphone/first-animacion.jpg",
+    altDescription: "primer proyecto de animacion",
     titlesCards: "FIRST ANIMATION",
     hashtag: "#Projects",
     colorHashtag: projects, //*!color delos hasthag */
@@ -75,6 +82,7 @@ const elementsCardsAll3 = [
   },
   {
     imgCards: "../../src/img/img-blog/img-iphone/batata-bit.jpg",
+    altDescription: "proyecto sobre una cripto moneda",
     titlesCards: "BATATA-BIT",
     hashtag: "#Projects",
     colorHashtag: projects, //*!color delos hasthag */

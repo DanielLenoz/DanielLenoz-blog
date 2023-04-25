@@ -7,6 +7,7 @@ const blogs = "#AA67FF";
 const elementsCards = [
   {
     imgCards: "./src/img/img-blog/img-iphone/rios-card.jpg",
+    altDescription: "blog rios sabiduria",
     titlesCards: "KNOWLEDGE´S RIVERS",
     hashtag: "#Blogs",
     colorHashtag: blogs, //*!color delos hasthag */
@@ -17,6 +18,7 @@ const elementsCards = [
   },
   {
     imgCards: "./src/img/img-blog/img-iphone/platzi-conf-22-card.jpg",
+    altDescription: "platzi conf 2022",
     titlesCards: "PLATZI CONF 22",
     hashtag: "#Events",
     colorHashtag: events, //*!color delos hasthag */
@@ -27,6 +29,7 @@ const elementsCards = [
   },
   {
     imgCards: "./src/img/img-blog/img-iphone/portafolio.jpg",
+    altDescription: "proyecto portafolio",
     titlesCards: "PORTAFOLIO",
     hashtag: "Projects",
     colorHashtag: projects, //*!color delos hasthag */
@@ -37,6 +40,7 @@ const elementsCards = [
   },
   {
     imgCards: "./src/img/img-blog/img-iphone/metaverso-card.jpg",
+    altDescription: "metaverso blog",
     titlesCards: "EL METAVERSO",
     hashtag: "#Blog",
     colorHashtag: blogs, //*!color delos hasthag */
@@ -47,6 +51,7 @@ const elementsCards = [
   },
   {
     imgCards: "./src/img/img-blog/img-iphone/platzi-conf-card.jpg",
+    altDescription: "platzi conf españa",
     titlesCards: "PLATZI CONF ES",
     hashtag: "#Event",
     colorHashtag: events, //*!color delos hasthag */
@@ -57,6 +62,7 @@ const elementsCards = [
   },
   {
     imgCards: "./src/img/img-blog/img-iphone/proyect-blog.jpg",
+    altDescription: "proyecto blog",
     titlesCards: "PROYECTO BLOG",
     hashtag: "Projects",
     colorHashtag: projects, //*!color delos hasthag */
@@ -67,6 +73,7 @@ const elementsCards = [
   },
   {
     imgCards: "./src/img/img-blog/img-iphone/first-animacion.jpg",
+    altDescription: "primer proyecto de animacion",
     titlesCards: "FIRST ANIMATION",
     hashtag: "#Projects",
     colorHashtag: projects, //*!color delos hasthag */
@@ -77,6 +84,7 @@ const elementsCards = [
   },
   {
     imgCards: "./src/img/img-blog/img-iphone/batata-bit.jpg",
+    altDescription: "proyecto cripto moneda",
     titlesCards: "BATATA-BIT",
     hashtag: "#Projects",
     colorHashtag: projects, //*!color delos hasthag */
@@ -96,6 +104,7 @@ elementsCards.forEach((the) => {
   const pictureImg = document.createElement("picture");
   const imgCards = document.createElement("img");
   imgCards.setAttribute("src", the.imgCards);
+  imgCards.setAttribute("alt", the.altDescription);
   imgCards.classList.add("img--cards");
 
   pictureImg.appendChild(imgCards);
@@ -127,6 +136,7 @@ elementsCards.forEach((the) => {
 
   const buttomLeer = document.createElement("a");
   buttomLeer.setAttribute("href", the.linksButtomLeer);
+  buttomLeer.setAttribute("aria-label", "leer todo el blog completo");
   buttomLeer.classList.add("buttom_leer--cards");
   buttomLeer.innerText = "leer mas";
   const fechaCards = document.createElement("p");

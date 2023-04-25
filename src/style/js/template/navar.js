@@ -33,11 +33,13 @@ elementsHTMlIphone.forEach((elIphone) => {
   const imgOpen = document.createElement("img");
   imgOpen.classList.add("menu");
   imgOpen.setAttribute("src", elIphone.imgOpen);
+  imgOpen.setAttribute("alt", "menu cerrado");
 
   const imgClose = document.createElement("img");
   imgClose.classList.add("close");
   imgClose.classList.add("inactive");
   imgClose.setAttribute("src", elIphone.imgClose);
+  imgClose.setAttribute("alt", "menu abierto");
   //---------------
   const containerMenuMobile = document.createElement("div");
   containerMenuMobile.classList.add("container_menu-mobile");
@@ -55,6 +57,7 @@ elementsHTMlIphone.forEach((elIphone) => {
   const aShareLinkHome = document.createElement("a");
   aShareLinkHome.classList.add("share_link");
   aShareLinkHome.setAttribute("href", elIphone.linkeHome);
+  aShareLinkHome.setAttribute("aria-label", "devuelta a la pagina principal");
   aShareLinkHome.innerText = `${elIphone.textHome}`;
 
   contenidoHome.appendChild(aShareLinkHome);
@@ -64,6 +67,7 @@ elementsHTMlIphone.forEach((elIphone) => {
   const aShareLinkBlogs = document.createElement("a");
   aShareLinkBlogs.classList.add("share_link");
   aShareLinkBlogs.setAttribute("href", elIphone.linkeBlogs);
+  aShareLinkBlogs.setAttribute("aria-label", "area de solo blogs");
   aShareLinkBlogs.innerText = `${elIphone.textBlogs}`;
 
   contenidoBlogs.appendChild(aShareLinkBlogs);
@@ -73,6 +77,7 @@ elementsHTMlIphone.forEach((elIphone) => {
   const aShareLinkEvents = document.createElement("a");
   aShareLinkEvents.classList.add("share_link");
   aShareLinkEvents.setAttribute("href", elIphone.linkeEvents);
+  aShareLinkEvents.setAttribute("aria-label", "area de solo eventos");
   aShareLinkEvents.innerText = `${elIphone.textEvents}`;
 
   contenidoEvents.appendChild(aShareLinkEvents);
@@ -82,6 +87,7 @@ elementsHTMlIphone.forEach((elIphone) => {
   const aShareLinkProjects = document.createElement("a");
   aShareLinkProjects.classList.add("share_link");
   aShareLinkProjects.setAttribute("href", elIphone.linkeProjects);
+  aShareLinkProjects.setAttribute("aria-label", "area de solo proyectos");
   aShareLinkProjects.innerText = `${elIphone.textProjects}`;
 
   contenidoProjects.appendChild(aShareLinkProjects);
@@ -91,6 +97,7 @@ elementsHTMlIphone.forEach((elIphone) => {
   const aShareLinkContact = document.createElement("a");
   aShareLinkContact.classList.add("share_link");
   aShareLinkContact.setAttribute("href", elIphone.linkeContact);
+  aShareLinkContact.setAttribute("aria-label", "area de contacto");
   aShareLinkContact.innerText = `${elIphone.textContact}`;
 
   contenidoContact.appendChild(aShareLinkContact);
@@ -145,6 +152,7 @@ elementsHTMlDesktop.forEach((elDesktop) => {
   containerLogo.classList.add("container_logo");
   const imgLogo = document.createElement("img");
   imgLogo.setAttribute("src", elDesktop.logo);
+  imgLogo.setAttribute("alt", "logo de Daniel");
   const textLogo = document.createElement("p");
   textLogo.classList.add("text_logo");
   textLogo.innerText = "Portafolio";
@@ -156,6 +164,7 @@ elementsHTMlDesktop.forEach((elDesktop) => {
   const aShareLinkHome = document.createElement("a");
   aShareLinkHome.classList.add("share_link");
   aShareLinkHome.setAttribute("href", elDesktop.linkeHome);
+  aShareLinkHome.setAttribute("aria-label", "devuelta a la pagina principal");
   aShareLinkHome.innerText = `${elDesktop.textHome}`;
 
   contenidoHome.appendChild(aShareLinkHome);
@@ -165,6 +174,7 @@ elementsHTMlDesktop.forEach((elDesktop) => {
   const aShareLinkBlogs = document.createElement("a");
   aShareLinkBlogs.classList.add("share_link");
   aShareLinkBlogs.setAttribute("href", elDesktop.linkeBlogs);
+  aShareLinkBlogs.setAttribute("aria-label", "area de solo blogs");
   aShareLinkBlogs.innerText = `${elDesktop.textBlogs}`;
 
   contenidoBlogs.appendChild(aShareLinkBlogs);
@@ -174,6 +184,7 @@ elementsHTMlDesktop.forEach((elDesktop) => {
   const aShareLinkEvents = document.createElement("a");
   aShareLinkEvents.classList.add("share_link");
   aShareLinkEvents.setAttribute("href", elDesktop.linkeEvents);
+  aShareLinkEvents.setAttribute("aria-label", "area de solo eventos");
   aShareLinkEvents.innerText = `${elDesktop.textEvents}`;
 
   contenidoEvents.appendChild(aShareLinkEvents);
@@ -183,6 +194,7 @@ elementsHTMlDesktop.forEach((elDesktop) => {
   const aShareLinkProjects = document.createElement("a");
   aShareLinkProjects.classList.add("share_link");
   aShareLinkProjects.setAttribute("href", elDesktop.linkeProjects);
+  aShareLinkProjects.setAttribute("aria-label", "area de solo proyectos");
   aShareLinkProjects.innerText = `${elDesktop.textProjects}`;
 
   contenidoProjects.appendChild(aShareLinkProjects);
@@ -192,6 +204,7 @@ elementsHTMlDesktop.forEach((elDesktop) => {
   const aShareLinkContact = document.createElement("a");
   aShareLinkContact.classList.add("share_link");
   aShareLinkContact.setAttribute("href", elDesktop.linkeContact);
+  aShareLinkContact.setAttribute("aria-label", "area de contacto");
   aShareLinkContact.innerText = `${elDesktop.textContact}`;
 
   contenidoContact.appendChild(aShareLinkContact);

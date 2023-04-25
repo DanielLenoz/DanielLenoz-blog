@@ -12,6 +12,7 @@ search("#Projects").forEach((the) => {
   const pictureImg2 = document.createElement("picture");
   const imgCards2 = document.createElement("img");
   imgCards2.setAttribute("src", the.imgCards);
+  imgCards2.setAttribute("alt", the.altDescription);
   imgCards2.classList.add("img--cards");
 
   pictureImg2.appendChild(imgCards2);
@@ -43,6 +44,7 @@ search("#Projects").forEach((the) => {
 
   const buttomLeer2 = document.createElement("a");
   buttomLeer2.setAttribute("href", the.linksButtomLeer);
+  buttomLeer2.setAttribute("aria-label", "leer todo el blog completo");
   buttomLeer2.classList.add("buttom_leer--cards");
   buttomLeer2.innerText = "leer mas";
   const fechaCards2 = document.createElement("p");
