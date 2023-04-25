@@ -155,7 +155,7 @@ elementsHTMlDesktop.forEach((elDesktop) => {
   imgLogo.setAttribute("alt", "logo de Daniel");
   const textLogo = document.createElement("p");
   textLogo.classList.add("text_logo");
-  textLogo.innerText = "Portafolio";
+  textLogo.innerText = "Blog";
   containerLogo.append(imgLogo, textLogo);
   //----
   //*home
