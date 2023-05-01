@@ -4,6 +4,83 @@ const blogs = "#AA67FF";
 
 const elementsCardsAll2 = [
   {
+    imgCards: "../src/img/img-blog/img-iphone/ducha-fria.jpg",
+    altDescription: "Duchas Frias",
+    titlesCards: "Duchas Frias",
+    hashtag: "#Blogs",
+    colorHashtag: blogs, //*!color delos hasthag */
+    textsDescription:
+      "Las duchas frías pueden fortalecer la mente y prepararla para enfrentar los desafíos de la vida, sin embargo, ¿por qué evitamos algo tan beneficioso y sencillo como tomar una ducha fría?.",
+    linksButtomLeer: "../public/blogs-blog/duchas_frias.html",
+    fechaCards: "29 Abril 2023",
+  },
+  {
+    imgCards: "../src/img/img-blog/img-iphone/lectura-ligera.jpg",
+    altDescription: "Un Rato De Lectura",
+    titlesCards: "Un Rato De Lectura",
+    hashtag: "#Blogs",
+    colorHashtag: blogs, //*!color delos hasthag */
+    textsDescription:
+      "Aunque los videos de las redes sociales son populares hoy en día, yo prefiero el poder de la escritura para compartir historias y consejos.",
+    linksButtomLeer: "../public/blogs-blog/rato_lectura.html",
+    fechaCards: "28 Abril 2023",
+  },
+  {
+    imgCards: "../src/img/img-blog/img-iphone/blog-v2.jpg",
+    altDescription: "Projecto Blog V2",
+    titlesCards: "Projecto Blog V2",
+    hashtag: "#Projects",
+    colorHashtag: projects, //*!color delos hasthag */
+    textsDescription:
+      "Un proyecto exitoso no solo funciona bien, también tiene que ser atractivo para los usuarios. Todo debe funcionar perfectamente y lucir atractivo a la vista para causar una buena impresión.",
+    linksButtomLeer: "../public/blogs-projects/proyecto_blog_v2.html",
+    fechaCards: "28 Abril 2023",
+  },
+  {
+    imgCards: "../src/img/img-blog/img-iphone/portafolio-v2.jpg",
+    altDescription: "Portafolio V2",
+    titlesCards: "Portafolio V2",
+    hashtag: "#Projects",
+    colorHashtag: projects, //*!color delos hasthag */
+    textsDescription:
+      "Los proyectos pueden evolucionar como los carros, por lo que no deben ser abandonados ya que siempre hay margen para mejoras.",
+    linksButtomLeer: "../public/blogs-projects/portafolio_v2.html",
+    fechaCards: "28 Abril 2023",
+  },
+  {
+    imgCards: "../src/img/img-blog/img-iphone/la-luz.jpg",
+    altDescription: "Los de la luz",
+    titlesCards: "Los De La Luz",
+    hashtag: "#Blogs",
+    colorHashtag: blogs, //*!color delos hasthag */
+    textsDescription:
+      "La verdad puede ser como un rayo de luz en la oscuridad o como agua en tierra seca. A los necios les puede parecer un terremoto, mientras que para los sabios de pensamiento será como un peso ligero",
+    linksButtomLeer: "../public/blogs-blog/la_luz.html",
+    fechaCards: "27 Abril 2023",
+  },
+  {
+    imgCards: "../src/img/img-blog/img-iphone/mente-cresimiento.jpg",
+    altDescription: "una mente en cresimiento",
+    titlesCards: "Una Mente en Cresimiento",
+    hashtag: "#Blogs",
+    colorHashtag: blogs, //*!color delos hasthag */
+    textsDescription:
+      "El crecimiento puede venir de varias formas; de manera sutil o de manera agresiva, pero siempre constante y adaptable a la mente de la persona aunque siempre duele cuando creces. ",
+    linksButtomLeer: "../public/blogs-blog/mente_cresimiento.html",
+    fechaCards: "26 Abril 2023",
+  },
+  {
+    imgCards: "../src/img/img-blog/img-iphone/AI-amiga.jpg",
+    altDescription: "Revolutionizing Work",
+    titlesCards: "Revolutionizing Work",
+    hashtag: "#Blogs",
+    colorHashtag: blogs, //*!color delos hasthag */
+    textsDescription:
+      "la AI una revolicion tecnologia para le ser humano con el potencial de hacer trabajos complejos en segundo o solo pedierle que cree una reseta de cocina. ",
+    linksButtomLeer: "../public/blogs-blog/Revolutionizing_Work.html",
+    fechaCards: "26 Abril 2023",
+  },
+  {
     imgCards: "../src/img/img-blog/img-iphone/rios-card.jpg",
     altDescription: "blog rios sabiduria",
     titlesCards: "KNOWLEDGE´S RIVERS",
