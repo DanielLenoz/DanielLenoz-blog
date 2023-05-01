@@ -3,7 +3,7 @@ const containerCardsBlogs2 = document.querySelector(".container_cards--blogs");
 const search = (query) =>
   elementsCardsAll2.filter((hashtag) => hashtag.hashtag.includes(query));
 
-search("#Event").forEach((the) => {
+search("#Blog").forEach((the) => {
   const cardBlog2 = document.createElement("section");
   cardBlog2.classList.add("card_blog");
 
