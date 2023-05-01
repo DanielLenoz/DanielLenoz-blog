@@ -54,7 +54,7 @@ const elementsCardsAll2 = [
     hashtag: "#Blogs",
     colorHashtag: blogs, //*!color delos hasthag */
     textsDescription:
-      "La verdad puede ser como un rayo de luz en la oscuridad o como agua en tierra seca. A los necios les puede parecer un terremoto, mientras que para los sabios de pensamiento será como un peso ligero",
+      "La verdad puede ser como un rayo de luz en la oscuridad o como agua en tierra seca. A los necios les parecer un terremoto, mientras que los sabios de pensamiento será como un peso ligero.",
     linksButtomLeer: "../public/blogs-blog/la_luz.html",
     fechaCards: "27 Abril 2023",
   },
