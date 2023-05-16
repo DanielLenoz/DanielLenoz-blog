@@ -1,15 +1,14 @@
-const containerCardsBlogs = document.querySelector("#Blogs");
+const containerCardsEvents = document.querySelector("#Events");
 
-const updatedElementsCardsBlogs = elementsCards.map(card2 => {
+const updatedElementsCardsEvents = elementsCards.map(card => {
   return {
-    ...card2,
-    imgSrc: `../${card2.imgSrc}`,
-    link: `../${card2.link}`
+    ...card,
+    imgSrc: `.${card.imgSrc}`,
+    link: `.${card.link}`
   }
 });
 
-const search = (query) => updatedElementsCardsBlogs.filter((hashtag) => hashtag.hashtag.includes(query));
-search("#Blogs").map((a) => {
-  console.log(a)
-  containerCardsBlogs.appendChild(new CardBlog(a))
+const search = (query) => updatedElementsCardsEvents.filter((hashtag) => hashtag.hashtag.includes(query));
+search("#Events").map((a) => {
+  containerCardsEvents.appendChild(new CardBlog(a))
 })
