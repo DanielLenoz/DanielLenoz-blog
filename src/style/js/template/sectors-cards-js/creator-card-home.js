@@ -17,6 +17,7 @@ class CardBlog {
     this.description = description;
     this.link = link;
     this.date = date;
+    return this.createCard()
   }
 
   createCard() {
@@ -82,3 +83,49 @@ class CardBlog {
     return cardBlog;
   }
 }
+const containerCardsBlogs = document.querySelector(".container_cards--blogs");
+
+const events = "#88ED23";
+const projects = "#0AB7B7";
+const blogs = "#AA67FF";
+const elementsCards = [
+  {
+    imgSrc: "../src/img/img-blog/img-iphone/ducha-fria.jpg",
+    altDescription: "Duchas Frias",
+    title: "Duchas Frias",
+    hashtag: "#Blogs",
+    colorHashtag: blogs,
+    description:
+      "Las duchas frías pueden fortalecer la mente y prepararla para enfrentar los desafíos de la vida, sin embargo, ¿por qué evitamos algo tan beneficioso y sencillo como tomar una ducha fría?.",
+    link: "../public/blogs-blog/duchas_frias.html",
+    date: "29 abril 2023",
+  },
+  {
+    imgSrc: "./src/img/img-blog/img-iphone/ducha-fria.jpg",
+    altDescription: "Duchas Frias",
+    title: "Duchas Frias",
+    hashtag: "#Blogs",
+    colorHashtag: blogs,
+    description:
+      "Las duchas frías pueden fortalecer la mente y prepararla para enfrentar los desafíos de la vida, sin embargo, ¿por qué evitamos algo tan beneficioso y sencillo como tomar una ducha fría?.",
+    link: "./public/blogs-blog/duchas_frias.html",
+    date: "29 abril 2023",
+  },
+]
+elementsCards.map((e) => {
+  containerCardsBlogs.appendChild(new CardBlog(e))
+  console.log(new CardBlog(e))
+})
+
+const updatedElementsCards = elementsCards.map(card => {
+  return {
+    ...card,
+    imgSrc: `../${card.imgSrc}`,
+    link: `../${card.link}`
+  }
+});
+
+updatedElementsCards.map((a) => {
+  containerCardsBlogs.appendChild(new CardBlog(a))
+  console.log(new CardBlog(a))
+})
