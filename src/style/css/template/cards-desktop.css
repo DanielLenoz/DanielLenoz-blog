@@ -1,4 +1,4 @@
-.container_cards--blogs {
+.container_cards {
   grid-template-columns: repeat(auto-fit, minmax(33.3rem, 41.6rem));
   grid-auto-rows: minmax(27.4rem, 31.7rem);
   column-gap: 2rem;
