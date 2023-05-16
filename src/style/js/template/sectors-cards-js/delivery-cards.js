@@ -1,5 +1,3 @@
-import { CardBlog } from "./creator-card.mjs";
-import { elementsCards } from "./content-cards.mjs";
 
 const containerCardsBlogs = document.querySelector(".container_cards--blogs");
 

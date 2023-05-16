@@ -3,7 +3,7 @@ const events = "#88ED23";
 const projects = "#0AB7B7";
 const blogs = "#AA67FF";
 
-export const elementsCards = [
+const elementsCards = [
   {
     imgSrc: "./src/img/img-blog/img-iphone/ducha-fria.jpg",
     altDescription: "Duchas Frias",

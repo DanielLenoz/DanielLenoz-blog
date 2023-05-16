@@ -1,4 +1,4 @@
-export class CardBlog {
+class CardBlog {
   constructor({
     imgSrc,
     altDescription,
