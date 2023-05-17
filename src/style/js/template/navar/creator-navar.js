@@ -173,7 +173,7 @@ class navar {
   aShareLinkEvents.classList.add("share_link");
   aShareLinkEvents.setAttribute("href", this.eventsLink);
   aShareLinkEvents.setAttribute("aria-label", "area de solo eventos");
-  aShareLinkEvents.innerText = `${this.textEvents}`;
+  aShareLinkEvents.innerText = `${this.eventsText}`;
 
   contenidoEvents.appendChild(aShareLinkEvents);
   //*projects
