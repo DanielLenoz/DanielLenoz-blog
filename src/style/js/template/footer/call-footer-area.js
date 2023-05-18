@@ -5,7 +5,7 @@ const updatedElementsFooter = elementsNavarAndFooter.map((data) => {
     ...data,
 
     logoSrc: `.${data.logoSrc}`,
-      linkedinSrc: `.${data.linkedinSrc}`,
+    linkedinSrc: `.${data.linkedinSrc}`,
     githubSrc: `.${data.githubSrc}`,
 
     homeLink: "../index.html",
@@ -15,15 +15,11 @@ const updatedElementsFooter = elementsNavarAndFooter.map((data) => {
     eventsLink: "./events.html",
 
     projectsLink: "./projects.html",
-  }
-})
-
+  };
+});
 
 updatedElementsFooter.map((z) => {
-    const footerAreaAll = new Footer(z);
-    const footerElement = footerAreaAll.createFooter(); 
-    footerArea.appendChild(footerElement);
-    console.log(footerAreaAll)
-    console.log(footerArea)
+  const footerAreaAll = new Footer(z);
+  const footerElement = footerAreaAll.createFooter();
+  footerArea.appendChild(footerElement);
 });
-console.log(updatedElementsFooter)

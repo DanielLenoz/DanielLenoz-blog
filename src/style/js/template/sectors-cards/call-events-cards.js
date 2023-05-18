@@ -1,14 +1,17 @@
 const containerCardsEvents = document.querySelector("#Events");
 
-const updatedElementsCardsEvents = elementsCards.map(card => {
+const updatedElementsCardsEvents = elementsCards.map((card) => {
   return {
     ...card,
     imgSrc: `.${card.imgSrc}`,
-    link: `.${card.link}`
-  }
+    link: `.${card.link}`,
+  };
 });
 
-const search = (query) => updatedElementsCardsEvents.filter((hashtag) => hashtag.hashtag.includes(query));
+const search = (query) =>
+  updatedElementsCardsEvents.filter((hashtag) =>
+    hashtag.hashtag.includes(query)
+  );
 search("#Events").map((a) => {
-  containerCardsEvents.appendChild(new CardBlog(a))
-})
+  containerCardsEvents.appendChild(new CardBlog(a));
+});

@@ -15,17 +15,16 @@ const updateelementsNavar = elementsNavarAndFooter.map((data) => {
     eventsLink: "./events.html",
 
     projectsLink: "./projects.html",
-  }
-})
+  };
+});
 
 updateelementsNavar.map((l) => {
-  const navarMobileArea = new Navar(l)
-  const navarElementArea = navarMobileArea.navarMobile()
-  headerArea.appendChild(navarElementArea)
-})
+  const navarMobileArea = new Navar(l);
+  const navarElementArea = navarMobileArea.navarMobile();
+  headerArea.appendChild(navarElementArea);
+});
 updateelementsNavar.map((l) => {
-    console.log(l)
-  const navarDesktopArea = new Navar(l)
-  const navarElementArea = navarDesktopArea.navarDesktop()
-  headerArea.appendChild(navarElementArea)
-})
+  const navarDesktopArea = new Navar(l);
+  const navarElementArea = navarDesktopArea.navarDesktop();
+  headerArea.appendChild(navarElementArea);
+});

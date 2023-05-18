@@ -17,7 +17,7 @@ class CardBlog {
     this.description = description;
     this.link = link;
     this.date = date;
-    return this.createCard()
+    return this.createCard();
   }
 
   createCard() {
@@ -35,7 +35,6 @@ class CardBlog {
     pictureImg.appendChild(imgCards);
     containerImgCards.appendChild(pictureImg);
 
-    //-------
     const containerTextCards = document.createElement("article");
     containerTextCards.classList.add("container_text--cards");
 
@@ -55,7 +54,6 @@ class CardBlog {
     textsDescriptionCards.classList.add("texts_description--cards");
     textsDescriptionCards.innerText = this.description;
 
-    //---
     const descriptionCards = document.createElement("section");
     descriptionCards.classList.add("description-cards");
 
@@ -69,7 +67,6 @@ class CardBlog {
     fechaCards.innerText = this.date;
 
     descriptionCards.append(buttomLeer, fechaCards);
-    //**contatenacion del html */
 
     containerTextCards.append(
       contactTitleCards,
@@ -83,27 +80,3 @@ class CardBlog {
     return cardBlog;
   }
 }
-
-
-// const updatedElementsCards = elementsCards.map(card => {
-//   return {
-//     ...card,
-//     imgSrc: `../${card.imgSrc}`,
-//     link: `../${card.link}`
-//   }
-// });
-
-// updatedElementsCards.map((a) => {
-//   containerCardsBlogs.appendChild(new CardBlog(a))
-//   console.log(new CardBlog(a))
-// })
-
-
-// console.log(search("#Blog"))
-// const search = (query) => elementsCards.filter((hashtag) => hashtag.hashtag.includes(query));
-// search("#Events").forEach((b) => {
-  
-//   containerCardsBlogs.appendChild(new CardBlog(b))
-//   console.log(new CardBlog(b))
-// })
-

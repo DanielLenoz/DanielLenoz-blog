@@ -15,14 +15,11 @@ const updatedElementsFooter = elementsNavarAndFooter.map((data) => {
     eventsLink: "../events.html",
 
     projectsLink: "../projects.html",
-  }
-})
-
+  };
+});
 
 updatedElementsFooter.map((z) => {
-    const footerBlogsAll = new Footer(z);
-    const footerElement = footerBlogsAll.createFooter(); 
-    footerBlogs.appendChild(footerElement);
-    console.log(footerBlogsAll)
-    console.log(footerBlogs)
+  const footerBlogsAll = new Footer(z);
+  const footerElement = footerBlogsAll.createFooter();
+  footerBlogs.appendChild(footerElement);
 });

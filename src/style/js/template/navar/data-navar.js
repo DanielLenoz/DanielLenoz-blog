@@ -23,13 +23,11 @@ const elementsNavarAndFooter = [
     contactLink: "#",
     contactText: "Contact",
 
-    footerText: "La organización es el principio de la planeación y el nacimiento de la creación",
+    footerText:
+      "La organización es el principio de la planeación y el nacimiento de la creación",
 
     linkedinLink:
       "https://www.linkedin.com/in/daniel-steven-rodriguez-verano-417472241/",
     githubLink: "https://github.com/DanielLenoz",
-
   },
 ];
-
-

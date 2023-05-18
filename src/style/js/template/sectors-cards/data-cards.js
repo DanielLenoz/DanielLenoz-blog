@@ -1,4 +1,3 @@
-
 const events = "#88ED23";
 const projects = "#0AB7B7";
 const blogs = "#AA67FF";
