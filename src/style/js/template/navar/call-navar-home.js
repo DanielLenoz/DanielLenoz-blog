@@ -1,12 +1,12 @@
-const headerHome = document.querySelector("#home");
+const headerHome = document.querySelector("header");
 
-elementsNavar.map((i) => {
-    const navarMobile = new navar(i);
+elementsNavarAndFooter.map((i) => {
+    const navarMobile = new Navar(i);
   const navarElement = navarMobile.navarMobile(); // Llamada correcta de la función
   headerHome.appendChild(navarElement);
 });
-elementsNavar.map((f) => {
-    const navarDesktop = new navar(f);
+elementsNavarAndFooter.map((f) => {
+    const navarDesktop = new Navar(f);
   const navarElement = navarDesktop.navarDesktop(); // Llamada correcta de la función
   headerHome.appendChild(navarElement);
 })

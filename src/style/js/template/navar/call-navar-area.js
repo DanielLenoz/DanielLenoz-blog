@@ -1,6 +1,6 @@
 const headerArea = document.querySelector("#area");
 
-const updateElementsNavar = elementsNavar.map((data) => {
+const updateelementsNavar = elementsNavarAndFooter.map((data) => {
   return {
     ...data,
     openMenuImgSrc: `.${data.openMenuImgSrc}`,
@@ -18,14 +18,14 @@ const updateElementsNavar = elementsNavar.map((data) => {
   }
 })
 
-updateElementsNavar.map((l) => {
-  const navarMobileArea = new navar(l)
+updateelementsNavar.map((l) => {
+  const navarMobileArea = new Navar(l)
   const navarElementArea = navarMobileArea.navarMobile()
   headerArea.appendChild(navarElementArea)
 })
-updateElementsNavar.map((l) => {
+updateelementsNavar.map((l) => {
     console.log(l)
-  const navarDesktopArea = new navar(l)
+  const navarDesktopArea = new Navar(l)
   const navarElementArea = navarDesktopArea.navarDesktop()
   headerArea.appendChild(navarElementArea)
 })

@@ -1,6 +1,6 @@
 const headerBlogs = document.querySelector("#blogs");
 
-const updateElementsNavar = elementsNavar.map((data) => {
+const updateelementsNavar = elementsNavarAndFooter.map((data) => {
   return {
     ...data,
     openMenuImgSrc: `../.${data.openMenuImgSrc}`,
@@ -18,14 +18,14 @@ const updateElementsNavar = elementsNavar.map((data) => {
   }
 })
 
-updateElementsNavar.map((l) => {
-  const navarMobileBlogs = new navar(l)
+updateelementsNavar.map((l) => {
+  const navarMobileBlogs = new Navar(l)
   const navarElementBlogs = navarMobileBlogs.navarMobile()
   headerBlogs.appendChild(navarElementBlogs)
 })
-updateElementsNavar.map((l) => {
+updateelementsNavar.map((l) => {
     console.log(l)
-  const navarDesktopArea = new navar(l)
+  const navarDesktopArea = new Navar(l)
   const navarElementBlogs = navarDesktopArea.navarDesktop()
   headerBlogs.appendChild(navarElementBlogs)
 })

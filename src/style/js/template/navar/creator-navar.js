@@ -1,5 +1,5 @@
 
-class navar {
+class Navar {
   constructor({ 
     openMenuImgSrc,
     closeMenuImgSrc,
