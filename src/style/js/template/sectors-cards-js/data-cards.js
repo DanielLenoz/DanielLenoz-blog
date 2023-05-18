@@ -45,7 +45,7 @@ const elementsCards = [
     colorHashtag: projects,
     description:
       "Los proyectos pueden evolucionar como los carros, por lo que no deben ser abandonados ya que siempre hay margen para mejoras.",
-    link: "/public/blogs-projects/portafolio_v2.html",
+    link: "./public/blogs-projects/portafolio_v2.html",
     date: "28 Abril 2023",
   },
   {
@@ -56,7 +56,7 @@ const elementsCards = [
     colorHashtag: blogs,
     description:
       "La verdad puede ser como un rayo de luz en la oscuridad o como agua en tierra seca. A los necios les parecer un terremoto, mientras que los sabios de pensamiento será como un peso ligero.",
-    link: "./public/blogs-blog/rato_lectura.html",
+    link: "./public/blogs-blog/la_luz.html",
     date: "27 Abril 2023",
   },
   {
