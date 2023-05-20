@@ -18,13 +18,13 @@ const updateelementsNavar = elementsNavarAndFooter.map((data) => {
   };
 });
 
-updateelementsNavar.map((l) => {
-  const navarMobileBlogs = new Navar(l);
+updateelementsNavar.map((data) => {
+  const navarMobileBlogs = new Navar(data);
   const navarElementBlogs = navarMobileBlogs.navarMobile();
   headerBlogs.appendChild(navarElementBlogs);
 });
-updateelementsNavar.map((l) => {
-  const navarDesktopArea = new Navar(l);
+updateelementsNavar.map((data) => {
+  const navarDesktopArea = new Navar(data);
   const navarElementBlogs = navarDesktopArea.navarDesktop();
   headerBlogs.appendChild(navarElementBlogs);
 });

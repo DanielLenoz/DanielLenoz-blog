@@ -18,13 +18,13 @@ const updateelementsNavar = elementsNavarAndFooter.map((data) => {
   };
 });
 
-updateelementsNavar.map((l) => {
-  const navarMobileArea = new Navar(l);
+updateelementsNavar.map((data) => {
+  const navarMobileArea = new Navar(data);
   const navarElementArea = navarMobileArea.navarMobile();
   headerArea.appendChild(navarElementArea);
 });
-updateelementsNavar.map((l) => {
-  const navarDesktopArea = new Navar(l);
+updateelementsNavar.map((data) => {
+  const navarDesktopArea = new Navar(data);
   const navarElementArea = navarDesktopArea.navarDesktop();
   headerArea.appendChild(navarElementArea);
 });

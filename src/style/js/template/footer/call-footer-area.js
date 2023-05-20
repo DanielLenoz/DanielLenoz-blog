@@ -18,8 +18,8 @@ const updatedElementsFooter = elementsNavarAndFooter.map((data) => {
   };
 });
 
-updatedElementsFooter.map((z) => {
-  const footerAreaAll = new Footer(z);
+updatedElementsFooter.map((data) => {
+  const footerAreaAll = new Footer(data);
   const footerElement = footerAreaAll.createFooter();
   footerArea.appendChild(footerElement);
 });

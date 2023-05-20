@@ -8,6 +8,6 @@ const updatedElementsCardsEnd = elementsCards.map((card) => {
   };
 });
 
-updatedElementsCardsEnd.slice(0, 3).map((w) => {
-  containerCardsEnd.appendChild(new CardBlog(w));
+updatedElementsCardsEnd.slice(0, 3).map((data) => {
+  containerCardsEnd.appendChild(new CardBlog(data));
 });

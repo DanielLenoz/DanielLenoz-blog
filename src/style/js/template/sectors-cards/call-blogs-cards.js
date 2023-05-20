@@ -12,6 +12,6 @@ const search = (query) =>
   updatedElementsCardsBlogs.filter((hashtag) =>
     hashtag.hashtag.includes(query)
   );
-search("#Blogs").map((e) => {
-  containerCardsBlogs.appendChild(new CardBlog(e));
+search("#Blogs").map((data) => {
+  containerCardsBlogs.appendChild(new CardBlog(data));
 });
