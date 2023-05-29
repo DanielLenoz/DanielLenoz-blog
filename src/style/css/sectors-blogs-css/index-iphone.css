@@ -2,8 +2,8 @@ main {
   padding: 1rem 2rem;
 }
 .container_img--background {
-  width: 33.5rem;
-  height: 23.8rem;
+  min-width: 33.5rem;
+  min-height: 23.8rem;
   position: relative;
   display: grid;
   justify-content: center;
@@ -27,24 +27,14 @@ main {
   text-align: center;
   align-self: center;
   padding: 3rem;
-  font-size: var(--iphone-titles-bold-size);
-  font-weight: var(--titles-bold-weight);
+  font-size: var(--titles-iphone);
+  font-weight: var(--extraBold);
   font-family: var(--titles-font-family);
 }
 .container--blogs {
   position: relative;
   margin-bottom: 8.6rem;
 }
-/* .container--blogs .brillo-right{
-        width: 22.7rem;
-            height: 24.6rem;
-            border-radius: 100%;
-            background: radial-gradient(50% 50% at 50% 50%, rgba(255, 230, 0, 0.46) 0%, rgba(245, 70, 1, 0.28) 53.12%, rgba(255, 0, 0, 0) 100%);
-            position: absolute;
-            top: -12rem;
-            right: -2rem;
-            pointer-events: none;
-} */
 .container--blogs .brillo-left {
   width: 22.7rem;
   height: 24.6rem;

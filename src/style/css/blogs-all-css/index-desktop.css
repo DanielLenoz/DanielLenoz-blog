@@ -1,7 +1,6 @@
-.contact_img--blog,
-.img_blog {
-  width: 115rem;
-  height: 31.7rem;
+.contact_img--blog{
+  max-width: 115rem;
+  max-height: 31.7rem;
 }
 .container_blog--full .brillo-right {
   width: 22.7rem;
@@ -66,21 +65,16 @@
   right: 3rem;
   pointer-events: none;
 }
-.title_blog--full {
-  font-size: var(--desktop-titles-bold-size);
+.title_blog--full,.container_ultimos_blogs>h1 {
+  font-size: var(--titles-desktop);
 }
 .hashtag--blogs,
 .hashtag--events,
-.hashtag--projects {
-  font-size: var(--desktop-texts-size);
-}
+.hashtag--projects,
 .fecha_blog--full {
-  font-size: var(--desktop-texts-size);
+  font-size: var(--texts-desktop);
 }
 .text_blog--full {
-  font-size: var(--desktop-texts-size);
-  line-height: var(--desktop-texts-height);
-}
-.container_ultimos_blogs > h1 {
-  font-size: var(--desktop-titles-bold-size);
+  font-size: var(--texts-desktop);
+  line-height: var(--texts-height-desktop);
 }

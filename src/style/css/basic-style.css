@@ -1,30 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Oswald:wght@400;700&family=Roboto&display=swap");
 :root {
-  --fonts-color: #f1feff;
-  --fonts-radial: linear-gradient(180deg, #ffe600 0%, #f54601 100%);
-  --line-color: #bd4103;
-  --background-header-color: #0f172a;
-  --background-footer-color: #231f1f;
-  --background-main-color: #0f172a;
+  --white-bone-200: #f6fcfd;
+  --blue-night-low-500: rgba(8, 11, 20, 0.49);
+  --blue-night-300: #0f172a;
+  --noble-black-500: #1d1e1f;
+  --sun-red-400: #e44104;
+  --neon-green-300: #78dd1e;
+  --purple-300: #9959ee;
+  --sky-cyan-300: #08a7a8;
+  --sunGlow-sunRed-400g1: linear-gradient(180deg, #edd600 0%, #e44104 100%);
   /* variables text */
-  --texts-weight: 400;
-  --titles-weight: 700;
-  --titles-bold-weight: 800;
   --unic-font-family: "Carter One", cursive;
   --titles-font-family: "Oswald", sans-serif;
   --texts-font-family: "Roboto", sans-serif;
-  --iphone-titles-size: 18px;
-  --iphone-titles-bold-size: 20px;
-  --iphone-texts-size: 16px;
-  --iphone-texts-height: 24px;
-  --desktop-titles-size: 24px;
-  --desktop-titles-bold-size: 28px;
-  --desktop-texts-size: 20px;
-  --desktop-texts-height: 31px;
-  /*variables para hashtag */
-  --color-blogs: #aa67ff;
-  --color-events: #88ed23;
-  --color-projects: #0ab7b7;
+  --regular: 400;
+  --bold: 700;
+  --extraBold: 800;
+  --titles-iphone: 20px;
+  --subtitles-iphone: 18px;
+  --texts-iphone: 16px;
+  --texts-height-iphone: 24px;
+  --titles-desktop: 28px;
+  --subtitles-desktop: 24px;
+  --texts-desktop: 18px;
+  --texts-height-desktop: 28px;
 }
 
 * {
@@ -39,11 +38,10 @@ html {
 }
 
 body {
-  background: var(--background-color);
-  color: var(--fonts-color);
+  color: var(--white-bone-200);
 }
 main {
-  background: var(--background-main-color);
+  background: var(--blue-night-300);
 }
 a {
   text-decoration: none;

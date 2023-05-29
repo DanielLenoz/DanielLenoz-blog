@@ -4,15 +4,15 @@
   justify-items: center;
   row-gap: 4.7rem;
   padding: 3.7rem 4.7rem;
-  background: var(--background-footer-color);
+  background: var(--noble-black-500);
 }
 
 .footer-text {
   text-align: center;
-  font-size: var(--iphone-texts-size);
-  font-weight: var(--texts-weight);
+  font-size: var(--texts-iphone);
+  font-weight: var(--regular);
   font-family: var(--texts-font-family);
-  line-height: var(--iphone-texts-height);
+  line-height: var(--texts-height-iphone);
   line-break: auto;
 }
 
@@ -23,15 +23,15 @@
 
 .share_link {
   text-align: center;
-  color: var(--fonts-color);
-  font-size: var(--iphone-texts-size);
-  font-weight: var(--texts-weight);
+  color: var(--white-bone-200);
+  font-size: var(--texts-iphone);
+  font-weight: var(--regular);
   font-family: var(--texts-font-family);
   border-bottom: 2px solid #ffffff00;
 }
 
 .share_link:hover {
-  border-bottom: 2px solid var(--line-color);
+  border-bottom: 2px solid var(--sun-red-400);
   animation: up infinite 2s;
 }
 
@@ -58,8 +58,8 @@
 }
 
 .contact_text {
-  font-size: var(--iphone-texts-size);
-  font-weight: var(--texts-weight);
+  font-size: var(--texts-iphone);
+  font-weight: var(--regular);
   font-family: var(--texts-font-family);
 }
 
@@ -78,6 +78,6 @@
 
 .property_text {
   font-family: var(--unic-font-family);
-  font-weight: var(--texts-weight);
-  font-size: 14px;
+  font-weight: var(--regular);
+  font-size: var(--texts-iphone);
 }

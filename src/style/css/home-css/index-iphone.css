@@ -57,36 +57,36 @@ main {
 .title_blog--principal {
   text-align: center;
   margin-bottom: 13px;
-  font-size: var(--iphone-titles-bold-size);
-  font-weight: var(--titles-bold-weight);
+  font-size: var(--titles-iphone);
+  font-weight: var(--extraBold);
   font-family: var(--titles-font-family);
 }
 
 .hashtag--blogs {
-  color: var(--color-blogs);
-  font-size: var(--iphone-texts-size);
-  font-weight: var(--titles-weight);
+  color: var(--purple-300);
+  font-size: var(--texts-iphone);
+  font-weight: var(--bold);
   font-family: var(--titles-font-family);
 }
 
 .hashtag--events {
-  color: var(--color-events);
-  font-size: var(--iphone-texts-size);
-  font-weight: var(--titles-weight);
+  color: var(--neon-green-300);
+  font-size: var(--texts-iphone);
+  font-weight: var(--bold);
   font-family: var(--titles-font-family);
 }
 
 .hashtag--projects {
-  color: var(--color-projects);
-  font-size: var(--iphone-texts-size);
-  font-weight: var(--titles-weight);
+  color: var(--sky-cyan-300);
+  font-size: var(--texts-iphone);
+  font-weight: var(--bold);
   font-family: var(--titles-font-family);
 }
 .text_blog--principal {
   margin-bottom: 13px;
-  font-size: var(--iphone-texts-size);
-  font-weight: var(--texts-weight);
-  line-height: var(--iphone-texts-height);
+  font-size: var(--texts-iphone);
+  font-weight: var(--regular);
+  line-height: var(--texts-height-iphone);
   font-family: var(--texts-font-family);
   line-break: auto;
 }
@@ -95,15 +95,15 @@ main {
   justify-content: space-between;
 }
 .fecha_blog--principal {
-  font-size: var(--iphone-texts-size);
-  font-weight: var(--texts-weight);
+  font-size: var(--texts-iphone);
+  font-weight: var(--regular);
   font-family: var(--texts-font-family);
 }
 .buttom_leer {
-  font-size: var(--iphone-texts-size);
-  font-weight: var(--titles-weight);
+  font-size: var(--texts-iphone);
+  font-weight: var(--bold);
   font-family: var(--texts-font-family);
-  background: var(--fonts-radial);
+  background: var(--sunGlow-sunRed-400g1);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -117,7 +117,7 @@ main {
 .container_blogs > h1 {
   text-align: center;
   margin: 2rem 0;
-  font-size: var(--iphone-titles-bold-size);
-  font-weight: var(--titles-bold-weight);
+  font-size: var(--titles-iphone);
+  font-weight: var(--extraBold);
   font-family: var(--titles-font-family);
 }

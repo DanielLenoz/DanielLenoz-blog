@@ -25,10 +25,10 @@ nav {
   padding-left: 4rem;
 }
 .text_logo {
-  font-size: var(--desktop-titles-size);
-  font-weight: var(--texts-weight);
+  font-size: var(--subtitles-desktop);
+  font-weight: var(--regular);
   font-family: var(--unic-font-family);
-  color: var(--fonts-color);
+  color: var(--white-bone-200);
   align-self: center;
   padding-left: 1rem;
 }
@@ -52,8 +52,4 @@ nav {
   transform: scale(1.2);
   transform-origin: bottom;
   transition: all ease-in-out 0.2s;
-}
-
-.contenido > .share_link {
-  font-size: var(--desktop-titles-size);
 }

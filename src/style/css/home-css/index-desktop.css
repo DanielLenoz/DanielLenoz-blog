@@ -19,30 +19,26 @@
 .title_blog--principal {
   text-align: start;
   align-self: center;
-  font-size: var(--desktop-titles-bold-size);
+  font-size: var(--titles-desktop);
 }
 
 .hashtag--blogs,
 .hashtag--events,
 .hashtag--projects {
-  font-size: var(--desktop-texts-size);
+  font-size: var(--texts-desktop);
 }
 .text_blog--principal {
-  font-size: var(--desktop-texts-size);
-  font-weight: var(--texts-weight);
-  line-height: var(--desktop-texts-height);
+  font-size: var(--texts-desktop);
+  line-height: var(--texts-height-desktop);
 }
 .container_description {
   align-items: center;
 }
-.buttom_leer {
-  font-size: var(--desktop-texts-size);
-}
-.fecha_blog--principal {
-  font-size: var(--desktop-texts-size);
+.buttom_leer, .fecha_blog--principal {
+  font-size: var(--texts-desktop);
 }
 
 .container_blogs > h1 {
   margin: 5rem 24rem;
-  font-size: var(--desktop-titles-bold-size);
+  font-size: var(--titles-desktop);
 }

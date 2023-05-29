@@ -1,10 +1,10 @@
 .container_img--background {
-  width: 124.4rem;
-  height: 32.1rem;
+  max-width: 124.4rem;
+  max-height: 32.1rem;
   margin: 2rem auto 6rem;
 }
 .title_front {
-  font-size: var(--desktop-titles-bold-size);
+  font-size: var(--titles-desktop);
   padding: 0 20rem;
 }
 .container--blogs .brillo-right {

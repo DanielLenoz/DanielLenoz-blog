@@ -5,26 +5,20 @@
 }
 
 .contact_title-cards .titles--card {
-  font-size: var(--desktop-titles-bold-size);
+  font-size: var(--titles-desktop);
 }
 
 .card_blog .container_text--cards {
   top: 239px;
 }
 
-.container_text--cards .hashtag {
-  font-size: var(--desktop-texts-size);
+.hashtag,
+.buttom_leer--cards,
+.fecha--cards {
+  font-size: var(--texts-desktop);
 }
 
 .container_text--cards .texts_description--cards {
-  font-size: var(--desktop-texts-size);
+  font-size: var(--texts-desktop);
   line-height: var(--desktop-texts-height);
-}
-
-.description-cards .buttom_leer--cards {
-  font-size: var(--desktop-texts-size);
-}
-
-.description-cards .fecha--cards {
-  font-size: var(--desktop-texts-size);
 }
