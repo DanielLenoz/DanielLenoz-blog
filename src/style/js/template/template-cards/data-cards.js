@@ -1,6 +1,6 @@
-const events = "#88ED23";
-const projects = "#0AB7B7";
-const blogs = "#AA67FF";
+const events = "#78dd1e";
+const projects = "#08a7a8";
+const blogs = "#9959ee";
 
 const elementsCards = [
   {
