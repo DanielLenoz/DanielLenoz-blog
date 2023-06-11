@@ -50,21 +50,7 @@
   left: 3rem;
   pointer-events: none;
 }
-.container_ultimos_blogs .brillo-right {
-  width: 22.7rem;
-  height: 24.6rem;
-  border-radius: 100%;
-  background: radial-gradient(
-    50% 50% at 50% 50%,
-    rgba(255, 230, 0, 0.46) 0%,
-    rgba(245, 70, 1, 0.28) 53.12%,
-    rgba(255, 0, 0, 0) 100%
-  );
-  position: absolute;
-  top: -4rem;
-  right: 3rem;
-  pointer-events: none;
-}
+
 .title_blog--full,.container_ultimos_blogs>h1 {
   font-size: var(--titles-desktop);
 }

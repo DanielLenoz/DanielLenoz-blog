@@ -23,11 +23,21 @@ nav {
   display: none;
 }
 
-.navar--mobile .container_menu-mobile {
+.container_menu-mobile.inactive {
+  left: 100%;
+  transform: none;
+  transition: 0.5s ease-in-out;
+  overflow: hidden;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+}
+.container_menu-mobile {
   height: 100vh;
   width: 100%;
   background: var(--blue-night-300);
   position: relative;
+  left: 0;
+  transition: 0.5s ease-in-out;
 }
 
 .menu--icon {
@@ -75,6 +85,20 @@ nav {
   bottom: 6rem;
   right: 1rem;
   pointer-events: none;
+}
+.brillo-bottom,
+.brillo-top {
+  animation: respite 3s infinite cubic-bezier(0.18, 0.35, 0.63, 0.4);
+}
+
+@keyframes respite {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
 }
 
 .red_container .contenido {

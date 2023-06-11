@@ -33,7 +33,7 @@ main {
   );
   position: absolute;
   top: -12rem;
-  right: -2rem;
+  right: -9rem;
   pointer-events: none;
 }
 .container_img--principal .brillo_bottom {
@@ -50,6 +50,19 @@ main {
   bottom: -12rem;
   left: -11rem;
   pointer-events: none;
+}
+.brillo_bottom,
+.brillo_top {
+  animation: respite 3s infinite cubic-bezier(0.18, 0.35, 0.63, 0.4);
+}
+@keyframes respite {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
 }
 .container_blog--text {
   display: grid;

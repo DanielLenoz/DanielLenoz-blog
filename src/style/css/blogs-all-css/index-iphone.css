@@ -116,7 +116,36 @@ main {
   left: -10rem;
   pointer-events: none;
 }
+.container_ultimos_blogs .brillo-right {
+  width: 22.7rem;
+  height: 24.6rem;
+  border-radius: 100%;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(255, 230, 0, 0.46) 0%,
+    rgba(245, 70, 1, 0.28) 53.12%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  position: absolute;
+  top: -4rem;
+  right: -9rem;
+  pointer-events: none;
+}
 
+.brillo-left,
+.brillo-right {
+  animation: respite 3s infinite cubic-bezier(0.18, 0.35, 0.63, 0.4);
+}
+
+@keyframes respite {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+}
 .container_ultimos_blogs > h1 {
   margin-bottom: 3rem;
   text-align: center;

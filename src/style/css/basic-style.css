@@ -35,10 +35,12 @@
 html {
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 body {
   color: var(--white-bone-200);
+  overflow-x: hidden;
 }
 main {
   background: var(--blue-night-300);

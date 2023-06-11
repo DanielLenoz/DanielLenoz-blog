@@ -100,6 +100,7 @@ class Footer extends Navar {
     linkLinkedin.setAttribute("href", this.linkedinLink);
     linkLinkedin.setAttribute("aria-label", "linke para el perfil de linkedin");
     const imgLinkedin = document.createElement("img");
+    imgLinkedin.classList.add("share_icon");
     imgLinkedin.setAttribute("src", this.linkedinSrc);
     imgLinkedin.setAttribute("alt", "logo de linkedin");
     linkLinkedin.appendChild(imgLinkedin);
@@ -108,6 +109,7 @@ class Footer extends Navar {
     linkGithub.setAttribute("href", this.githubLink);
     linkGithub.setAttribute("aria-label", "linke al perfil de github");
     const imgGithub = document.createElement("img");
+    imgGithub.classList.add("share_icon");
     imgGithub.setAttribute("src", this.githubSrc);
     imgGithub.setAttribute("alt", "logo de github");
     linkGithub.appendChild(imgGithub);
@@ -119,6 +121,7 @@ class Footer extends Navar {
     const footerProperty = document.createElement("section");
     footerProperty.classList.add("footer_property");
     const imgLogo = document.createElement("img");
+    imgLogo.classList.add("logoSrc");
     imgLogo.setAttribute("src", this.logoSrc);
     imgLogo.setAttribute("alt", "logo de Daniel");
     const propertyText = document.createElement("p");

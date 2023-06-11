@@ -68,14 +68,41 @@
   justify-content: center;
   gap: 2rem;
 }
-
+.container_icons--contact a:hover .share_icon {
+  transform-origin: bottom;
+  animation: jek 2s infinite cubic-bezier(0.42, 0, 0.28, 1.04);
+}
+@keyframes jek {
+  30% {
+    transform: rotate(-40deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  80% {
+    transform: rotate(-40deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
 .footer_property {
   display: grid;
   justify-items: center;
   align-content: center;
   row-gap: 1rem;
 }
-
+.logoSrc {
+  animation: scal 3s infinite ease-in-out;
+}
+@keyframes scal {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+}
 .property_text {
   font-family: var(--unic-font-family);
   font-weight: var(--regular);
