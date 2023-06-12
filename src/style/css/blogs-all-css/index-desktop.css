@@ -1,4 +1,4 @@
-.contact_img--blog{
+.contact_img--blog {
   max-width: 115rem;
 }
 .container_blog--full .brillo-right {
@@ -50,7 +50,8 @@
   pointer-events: none;
 }
 
-.title_blog--full,.container_ultimos_blogs>h1 {
+.title_blog--full,
+.container_ultimos_blogs > h1 {
   font-size: var(--titles-desktop);
 }
 .hashtag--blogs,
